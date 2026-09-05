@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# editors
+.vscode
+.idea
+
+# claude code local tooling
+.claude
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+
+
+
+
+# Fuentes con licencia comercial (Colophon Foundry - kit oficial ExpoJuy)
+public/fonts/*.woff2
+public/fonts/*.woff
+public/fonts/*.otf
+public/fonts/*.ttf
+
+# Documentos internos del concurso (bases oficiales, memoria, contexto)
+docs/BASES_Y_CONDICIONES.md
+docs/CONSIGNAS_TECNICAS_DEL_DESAF*.md
+docs/instrucciones-req.md
+docs/Contexto_expojuy_2026.md
+docs/*.pdf
