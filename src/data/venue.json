@@ -1,0 +1,138 @@
+{
+  "_mock": true,
+  "_disclaimer": "Plano del predio ficticio generado para el Desafío Digital ExpoJuy 2026. No representa la distribución oficial del predio.",
+  "zones": [
+    {
+      "id": "vz-auditorio",
+      "name": "Auditorio Central (demo)",
+      "kind": "auditorio",
+      "category": null,
+      "description": "Escenario principal para aperturas, conferencias y cierres.",
+      "x": 40,
+      "y": 40,
+      "width": 200,
+      "height": 90
+    },
+    {
+      "id": "vz-negocios",
+      "name": "Salón de Negocios (demo)",
+      "kind": "servicio",
+      "category": null,
+      "description": "Rondas de negocios B2B y salas de reunión para expositores.",
+      "x": 520,
+      "y": 40,
+      "width": 240,
+      "height": 90
+    },
+    {
+      "id": "vz-puna",
+      "name": "Pabellón Puna (demo)",
+      "kind": "pabellon",
+      "category": "mineria-energia",
+      "description": "Empresas de minería, litio y energía de la región.",
+      "x": 40,
+      "y": 160,
+      "width": 150,
+      "height": 90
+    },
+    {
+      "id": "vz-valles",
+      "name": "Pabellón Valles (demo)",
+      "kind": "pabellon",
+      "category": "agroindustria",
+      "description": "Agroindustria, producción tabacalera y economías regionales.",
+      "x": 210,
+      "y": 160,
+      "width": 150,
+      "height": 90
+    },
+    {
+      "id": "vz-quebrada",
+      "name": "Pabellón Quebrada (demo)",
+      "kind": "pabellon",
+      "category": "turismo",
+      "description": "Turismo, experiencias y destinos de la Quebrada y la Puna.",
+      "x": 380,
+      "y": 160,
+      "width": 150,
+      "height": 90
+    },
+    {
+      "id": "vz-innovacion",
+      "name": "Pabellón Innovación (demo)",
+      "kind": "pabellon",
+      "category": "tecnologia",
+      "description": "Tecnología, software y economía del conocimiento.",
+      "x": 550,
+      "y": 160,
+      "width": 210,
+      "height": 90
+    },
+    {
+      "id": "vz-artesanal",
+      "name": "Pabellón Artesanal (demo)",
+      "kind": "pabellon",
+      "category": "artesanias",
+      "description": "Artesanías andinas, textiles y diseño regional.",
+      "x": 40,
+      "y": 280,
+      "width": 150,
+      "height": 90
+    },
+    {
+      "id": "vz-gastronomico",
+      "name": "Pabellón Gastronómico (demo)",
+      "kind": "pabellon",
+      "category": "gastronomia",
+      "description": "Sabores del Norte, productos gourmet y cocina regional.",
+      "x": 210,
+      "y": 280,
+      "width": 150,
+      "height": 90
+    },
+    {
+      "id": "vz-servicios",
+      "name": "Pabellón Servicios (demo)",
+      "kind": "pabellon",
+      "category": "servicios",
+      "description": "Logística, comercio exterior y servicios profesionales.",
+      "x": 380,
+      "y": 280,
+      "width": 150,
+      "height": 90
+    },
+    {
+      "id": "vz-patio",
+      "name": "Patio Gastronómico (demo)",
+      "kind": "servicio",
+      "category": null,
+      "description": "Espacio de descanso con propuestas gastronómicas y foodtrucks.",
+      "x": 550,
+      "y": 280,
+      "width": 210,
+      "height": 90
+    },
+    {
+      "id": "vz-estacionamiento",
+      "name": "Estacionamiento (demo)",
+      "kind": "servicio",
+      "category": null,
+      "description": "Playa de estacionamiento y acceso vehicular.",
+      "x": 40,
+      "y": 400,
+      "width": 320,
+      "height": 70
+    },
+    {
+      "id": "vz-acceso",
+      "name": "Acceso Principal (demo)",
+      "kind": "acceso",
+      "category": null,
+      "description": "Ingreso principal, acreditación y punto de información.",
+      "x": 380,
+      "y": 400,
+      "width": 380,
+      "height": 70
+    }
+  ]
+}

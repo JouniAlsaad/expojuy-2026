@@ -1,0 +1,44 @@
+{
+  "_mock": true,
+  "_disclaimer": "Entradas y precios ficticios generados para el Desafío Digital ExpoJuy 2026. No representan valores ni condiciones oficiales.",
+  "items": [
+    {
+      "id": "tk-general",
+      "slug": "general",
+      "name": "General (ficticio)",
+      "price": 0,
+      "highlighted": false,
+      "perks": [
+        "Acceso a los tres días de feria",
+        "Recorrido por todos los pabellones",
+        "Registro previo con acceso digital"
+      ]
+    },
+    {
+      "id": "tk-empresarial",
+      "slug": "empresarial",
+      "name": "Empresarial (ficticio)",
+      "price": 15000,
+      "highlighted": true,
+      "perks": [
+        "Todo lo de la entrada General",
+        "Acceso a rondas de negocios B2B",
+        "Ingreso preferencial y sala de reuniones",
+        "Kit de credencial profesional"
+      ]
+    },
+    {
+      "id": "tk-vip",
+      "slug": "vip",
+      "name": "VIP (ficticio)",
+      "price": 40000,
+      "highlighted": false,
+      "perks": [
+        "Todo lo de la entrada Empresarial",
+        "Acceso al lounge VIP y catering",
+        "Lugar reservado en charlas destacadas",
+        "Estacionamiento exclusivo"
+      ]
+    }
+  ]
+}

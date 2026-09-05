@@ -1,0 +1,51 @@
+{
+  "_mock": true,
+  "_disclaimer": "Noticias ficticias generadas para el Desafío Digital ExpoJuy 2026. No representan comunicaciones oficiales.",
+  "items": [
+    {
+      "id": "nw-001",
+      "title": "ExpoJuy 2026 abre la convocatoria de expositores (demo)",
+      "slug": "convocatoria-expositores",
+      "excerpt": "Nota de ejemplo sobre la apertura de inscripciones para la próxima edición de la feria.",
+      "publishedAt": "2026-05-02",
+      "category": "institucional",
+      "coverUrl": null
+    },
+    {
+      "id": "nw-002",
+      "title": "Nuevo pabellón de innovación y tecnología (demo)",
+      "slug": "pabellon-innovacion",
+      "excerpt": "Contenido ficticio que anticipa un espacio dedicado a startups y economía del conocimiento.",
+      "publishedAt": "2026-05-20",
+      "category": "tecnologia",
+      "coverUrl": null
+    },
+    {
+      "id": "nw-003",
+      "title": "Rondas de negocios B2B con enfoque exportador (demo)",
+      "slug": "rondas-b2b",
+      "excerpt": "Ejemplo de novedad sobre el programa de matchmaking entre empresas del NOA.",
+      "publishedAt": "2026-06-10",
+      "category": "negocios",
+      "coverUrl": null
+    },
+    {
+      "id": "nw-004",
+      "title": "Circuito gastronómico andino en la feria (demo)",
+      "slug": "circuito-gastronomico",
+      "excerpt": "Nota demostrativa sobre la propuesta de sabores regionales para los visitantes.",
+      "publishedAt": "2026-06-28",
+      "category": "gastronomia",
+      "coverUrl": null
+    },
+    {
+      "id": "nw-005",
+      "title": "Entradas anticipadas disponibles online (demo)",
+      "slug": "entradas-anticipadas",
+      "excerpt": "Contenido de ejemplo sobre la venta digital de accesos para ExpoJuy 2026.",
+      "publishedAt": "2026-07-15",
+      "category": "institucional",
+      "coverUrl": null
+    }
+  ]
+}

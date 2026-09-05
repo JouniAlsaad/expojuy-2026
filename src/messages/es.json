@@ -1,0 +1,395 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre ExpoJuy",
+    "exhibitors": "Expositores",
+    "agenda": "Agenda",
+    "map": "Mapa",
+    "news": "Noticias",
+    "sponsors": "Sponsors",
+    "tickets": "Entradas",
+    "route": "Ruta IA",
+    "faq": "FAQ",
+    "contact": "Contacto"
+  },
+  "brand": {
+    "name": "ExpoJuy 2026",
+    "tagline": "Feria multisectorial del NOA"
+  },
+  "common": {
+    "tickets": "Entradas",
+    "mockNotice": "Contenido de demostración — datos ficticios para el concurso.",
+    "comingSoon": "Sección en construcción para la etapa 2.",
+    "soon": "Próximamente"
+  },
+  "a11y": {
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "switchToLight": "Cambiar a tema claro",
+    "switchToDark": "Cambiar a tema oscuro",
+    "instagram": "Instagram de ExpoJuy",
+    "facebook": "Facebook de ExpoJuy",
+    "youtube": "YouTube de ExpoJuy",
+    "x": "X de ExpoJuy"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "ExpoJuy 2026 · Feria multisectorial del NOA",
+      "title": "La feria no termina cuando cierran las puertas",
+      "subtitle": "ExpoJuy Vivo es la plataforma que acompaña la feria en sus tres tiempos: descubrir antes, vivir durante y disfrutar el legado después.",
+      "ctaPrimary": "Sacá tu entrada",
+      "ctaSecondary": "Ver agenda"
+    },
+    "countdown": {
+      "label": "Faltan para el inicio",
+      "days": "Días",
+      "hours": "Horas",
+      "minutes": "Min",
+      "seconds": "Seg",
+      "live": "¡ExpoJuy 2026 está en marcha!"
+    },
+    "about": {
+      "eyebrow": "Sobre ExpoJuy 2026",
+      "title": "La feria multisectorial más importante del Norte Argentino",
+      "description": "ExpoJuy reúne a empresas, instituciones y visitantes de toda la región en torno a la innovación, la producción y la vinculación empresarial. Una plataforma para hacer negocios, mostrar talento y proyectar el desarrollo del NOA.",
+      "preliminary": "Cifras preliminares — se reemplazan por los datos oficiales de la organización.",
+      "kpis": {
+        "edition": "{value}ª",
+        "stands": "{value, number}",
+        "surface": "+{value, number}",
+        "visitors": "+{value, number}"
+      },
+      "labels": {
+        "edition": "Edición",
+        "stands": "Stands",
+        "surface": "m² de exposición",
+        "visitors": "Visitantes esperados"
+      }
+    },
+    "values": {
+      "title": "Los valores que nos mueven",
+      "subtitle": "ExpoJuy 2026 es innovación, tecnología y desarrollo puestos al servicio de la producción del NOA.",
+      "items": {
+        "innovation": {
+          "title": "Innovación",
+          "description": "Nuevas ideas y soluciones que impulsan a la región."
+        },
+        "technology": {
+          "title": "Tecnología",
+          "description": "Herramientas digitales al servicio de la producción."
+        },
+        "production": {
+          "title": "Producción",
+          "description": "La industria y el trabajo del Norte Argentino."
+        },
+        "development": {
+          "title": "Desarrollo",
+          "description": "Crecimiento sostenible para las economías regionales."
+        },
+        "business": {
+          "title": "Vinculación empresarial",
+          "description": "Conexiones que generan negocios y oportunidades."
+        },
+        "knowledge": {
+          "title": "Economía del Conocimiento",
+          "description": "Talento y servicios basados en el conocimiento."
+        }
+      }
+    },
+    "sponsorsPreview": {
+      "eyebrow": "Sponsors",
+      "title": "Acompañan a ExpoJuy 2026",
+      "cta": "Ver todos los sponsors"
+    },
+    "routeCta": {
+      "eyebrow": "Vivir · Con IA",
+      "title": "No sabés por dónde empezar. La feria sí.",
+      "description": "Contanos tus intereses y tu tiempo disponible: armamos una ruta personalizada con las charlas y los stands que no te podés perder.",
+      "action": "Armar mi ruta"
+    },
+    "phases": {
+      "title": "Una plataforma, tres tiempos",
+      "subtitle": "No es un folleto del evento: es una experiencia continua.",
+      "discover": {
+        "title": "Descubrir",
+        "tag": "Pre-evento",
+        "description": "Expositores, agenda, entradas y novedades para planificar tu visita."
+      },
+      "live": {
+        "title": "Vivir",
+        "tag": "Durante",
+        "description": "Mapa en tiempo real, qué pasa ahora y ruta personalizada con IA."
+      },
+      "legacy": {
+        "title": "Legado",
+        "tag": "Post-evento",
+        "description": "Highlights, contenidos on-demand y matchmaking B2B."
+      }
+    }
+  },
+  "pages": {
+    "exhibitors": {
+      "title": "Expositores",
+      "description": "Descubrí las empresas e instituciones que exponen en ExpoJuy 2026. Buscá por rubro, ubicación en el predio y actividades destacadas."
+    },
+    "agenda": {
+      "title": "Agenda",
+      "eyebrow": "Explorá",
+      "description": "Explorá el cronograma de charlas, conferencias y actividades que se desarrollarán durante los días de ExpoJuy 2026."
+    },
+    "map": {
+      "title": "Mapa del predio",
+      "eyebrow": "Recorré",
+      "description": "Recorré el predio antes de llegar. Ubicá stands, pabellones, auditorios y zonas gastronómicas."
+    },
+    "news": {
+      "title": "Noticias",
+      "eyebrow": "Descubrí",
+      "description": "Enterate de todas las novedades del evento antes, durante y después de la Expo."
+    },
+    "sponsors": {
+      "title": "Sponsors",
+      "eyebrow": "Conocé",
+      "description": "Conocé las empresas e instituciones que hacen posible ExpoJuy 2026."
+    },
+    "contact": {
+      "title": "Contacto",
+      "eyebrow": "Sumate",
+      "description": "Escribinos para expositores, prensa, sponsors o consultas generales."
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "eyebrow": "Resolvé",
+      "description": "Encontrá respuestas a las preguntas más frecuentes sobre ExpoJuy 2026."
+    },
+    "tickets": {
+      "title": "Entradas",
+      "eyebrow": "Asegurá tu lugar",
+      "description": "Gestioná tu acceso a ExpoJuy 2026: elegí el tipo de entrada, completá tus datos y recibí tu acceso digital."
+    },
+    "itinerary": {
+      "title": "Ruta IA",
+      "eyebrow": "Planificá con IA",
+      "description": "Armá una ruta personalizada por la feria según tus intereses y el tiempo disponible."
+    }
+  },
+  "exhibitors": {
+    "listTitle": "Expositores confirmados",
+    "listDescription": "Marcas y empresas que participan de la edición 2026.",
+    "booth": "Stand {code}",
+    "website": "Sitio web",
+    "empty": "Todavía no hay expositores para mostrar.",
+    "searchPlaceholder": "Buscar expositor por nombre o rubro…",
+    "filterLabel": "Filtrar por rubro",
+    "allCategories": "Todos los rubros",
+    "noResults": "No encontramos expositores con esos criterios.",
+    "results": "{count, plural, =0 {Sin resultados} one {# expositor} other {# expositores}}",
+    "categories": {
+      "mineria-energia": "Minería y Energía",
+      "agroindustria": "Agroindustria",
+      "turismo": "Turismo",
+      "tecnologia": "Tecnología",
+      "artesanias": "Artesanías",
+      "gastronomia": "Gastronomía",
+      "servicios": "Servicios"
+    }
+  },
+  "itinerary": {
+    "listTitle": "Armá tu visita en minutos",
+    "listDescription": "Contanos qué te interesa y cuánto tiempo tenés: te proponemos una ruta con charlas y stands para aprovechar al máximo tu día en la feria.",
+    "disclaimer": "Ruta generada por una heurística de demostración a partir de datos ficticios. En la etapa de desarrollo se potencia con inteligencia artificial.",
+    "hoursShort": "h",
+    "minutesShort": "min",
+    "form": {
+      "interests": "¿Qué rubros te interesan?",
+      "day": "¿Qué día venís?",
+      "time": "¿Cuánto tiempo tenés?",
+      "generate": "Generar mi ruta",
+      "times": {
+        "short": "2 horas",
+        "half": "Media jornada",
+        "full": "Todo el día"
+      }
+    },
+    "kinds": {
+      "session": "Charla",
+      "stand": "Visita a stand"
+    },
+    "result": {
+      "badge": "Tu ruta personalizada",
+      "title": "Ruta sugerida para el {day}",
+      "estimated": "Tiempo estimado: {time}",
+      "empty": "No encontramos actividades para esos filtros. Probá sumar rubros o ampliar el tiempo disponible.",
+      "again": "Generar otra ruta"
+    },
+    "rubros": {
+      "institucional": "Institucional",
+      "mineria-energia": "Minería y Energía",
+      "agroindustria": "Agroindustria",
+      "turismo": "Turismo",
+      "tecnologia": "Tecnología",
+      "artesanias": "Artesanías",
+      "gastronomia": "Gastronomía",
+      "negocios": "Negocios",
+      "servicios": "Servicios"
+    }
+  },
+  "venue": {
+    "listTitle": "Recorré el predio",
+    "listDescription": "Explorá pabellones, auditorios y servicios. Tocá una zona para ver el detalle o filtrá por rubro.",
+    "mapLabel": "Plano interactivo del predio de ExpoJuy 2026",
+    "filterLabel": "Filtrar pabellones por rubro",
+    "zonesLabel": "Seleccionar una zona del predio",
+    "allCategories": "Todos los rubros",
+    "selectPrompt": "Seleccioná una zona del plano para ver su información.",
+    "kinds": {
+      "pabellon": "Pabellón",
+      "servicio": "Servicio",
+      "auditorio": "Auditorio",
+      "acceso": "Acceso"
+    }
+  },
+  "tickets": {
+    "listTitle": "Elegí tu entrada",
+    "listDescription": "Gestioná tu acceso a ExpoJuy 2026 en pocos pasos. Este es un flujo de demostración con datos ficticios.",
+    "recommended": "Recomendada",
+    "free": "Gratis",
+    "choose": "Elegir",
+    "form": {
+      "back": "Volver a las entradas",
+      "name": "Nombre y apellido",
+      "email": "Correo electrónico",
+      "quantity": "Cantidad",
+      "total": "Total",
+      "confirmFree": "Confirmar registro",
+      "confirmPaid": "Confirmar compra",
+      "errors": {
+        "name": "Ingresá tu nombre completo.",
+        "email": "Ingresá un correo electrónico válido."
+      }
+    },
+    "done": {
+      "title": "¡Acceso confirmado!",
+      "subtitle": "Guardá tu código de acceso digital.",
+      "ticket": "Entrada",
+      "quantity": "Cantidad",
+      "attendee": "Titular",
+      "email": "Correo",
+      "demoNotice": "Compra de demostración: no se realizó ningún cobro. En la etapa de desarrollo se integra la pasarela de pago oficial.",
+      "again": "Gestionar otra entrada"
+    }
+  },
+  "contact": {
+    "formTitle": "Escribinos",
+    "formDescription": "Completá el formulario y el equipo de ExpoJuy 2026 se pondrá en contacto.",
+    "channelsTitle": "Otros canales",
+    "submit": "Enviar mensaje",
+    "submitting": "Enviando…",
+    "fields": {
+      "name": "Nombre y apellido",
+      "email": "Correo electrónico",
+      "organization": "Organización o empresa",
+      "reason": "Motivo de contacto",
+      "reasonPlaceholder": "Elegí un motivo",
+      "message": "Mensaje"
+    },
+    "reasons": {
+      "expositor": "Quiero exponer",
+      "prensa": "Prensa",
+      "sponsor": "Quiero ser sponsor",
+      "general": "Consulta general"
+    },
+    "errors": {
+      "nameMin": "Ingresá tu nombre completo.",
+      "emailInvalid": "Ingresá un correo electrónico válido.",
+      "organizationMax": "La organización es demasiado larga.",
+      "reasonRequired": "Elegí un motivo de contacto.",
+      "messageMin": "Contanos un poco más (mínimo 10 caracteres).",
+      "messageMax": "El mensaje es demasiado largo."
+    },
+    "success": {
+      "title": "¡Mensaje enviado!",
+      "description": "Gracias por escribirnos. Este es un envío de demostración: en la etapa de desarrollo se conecta con el canal oficial.",
+      "again": "Enviar otro mensaje"
+    }
+  },
+  "faq": {
+    "listTitle": "Resolvé tus dudas",
+    "listDescription": "Reunimos las consultas más frecuentes sobre la feria, las entradas y la participación de expositores.",
+    "empty": "Todavía no hay preguntas cargadas.",
+    "categories": {
+      "general": "General",
+      "entradas": "Entradas",
+      "expositores": "Expositores"
+    }
+  },
+  "news": {
+    "listTitle": "Últimas novedades",
+    "listDescription": "Comunicados, anuncios y coberturas del antes, durante y después de la feria.",
+    "empty": "Todavía no hay noticias publicadas.",
+    "readMore": "Leer más",
+    "backToList": "Volver a noticias",
+    "notFound": "La noticia que buscás no existe o fue movida.",
+    "categories": {
+      "institucional": "Institucional",
+      "tecnologia": "Tecnología",
+      "negocios": "Negocios",
+      "gastronomia": "Gastronomía",
+      "turismo": "Turismo",
+      "mineria-energia": "Minería y Energía"
+    }
+  },
+  "agenda": {
+    "listTitle": "Programación día por día",
+    "listDescription": "Charlas, conferencias, rondas de negocios y activaciones a lo largo de la feria.",
+    "empty": "Todavía no hay actividades cargadas.",
+    "noSessions": "No hay actividades para este filtro.",
+    "allTracks": "Todos los rubros",
+    "dayTabsLabel": "Seleccionar día de la agenda",
+    "trackFilterLabel": "Filtrar por rubro",
+    "tracks": {
+      "institucional": "Institucional",
+      "mineria-energia": "Minería y Energía",
+      "agroindustria": "Agroindustria",
+      "turismo": "Turismo",
+      "tecnologia": "Tecnología",
+      "artesanias": "Artesanías",
+      "gastronomia": "Gastronomía",
+      "negocios": "Negocios"
+    }
+  },
+  "sponsors": {
+    "listTitle": "Quienes hacen posible ExpoJuy 2026",
+    "listDescription": "Empresas e instituciones que acompañan la feria en cada uno de sus niveles de patrocinio.",
+    "empty": "Todavía no hay sponsors confirmados para mostrar.",
+    "tiers": {
+      "diamond": "Diamante",
+      "platinum": "Platino",
+      "gold": "Oro",
+      "silver": "Plata",
+      "bronze": "Bronce"
+    },
+    "cta": {
+      "title": "¿Querés ser sponsor de ExpoJuy 2026?",
+      "description": "Sumá tu marca a la feria multisectorial más importante del Norte Argentino y conectá con miles de visitantes y empresas.",
+      "action": "Quiero ser sponsor"
+    }
+  },
+  "footer": {
+    "about": "La feria multisectorial más importante del Norte Argentino.",
+    "sections": "Secciones",
+    "followUs": "Seguinos",
+    "contactTitle": "Contacto",
+    "address": "Ciudad Cultural, San Salvador de Jujuy",
+    "copyright": "© {year} Cámara de Comercio Exterior de Jujuy. Todos los derechos reservados.",
+    "credit": "Propuesta desarrollada para el Desafío Digital ExpoJuy 2026."
+  },
+  "notFound": {
+    "title": "Esta página no existe en ExpoJuy 2026",
+    "description": "Puede que la sección esté en construcción o que el enlace haya cambiado. Volvé al inicio y explorá lo que te espera en la próxima edición.",
+    "cta": {
+      "primary": "Volver al inicio",
+      "secondary": "Ir a Expositores"
+    }
+  }
+}

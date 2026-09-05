@@ -1,0 +1,66 @@
+{
+  "_mock": true,
+  "_disclaimer": "Agenda ficticia generada para el Desafío Digital ExpoJuy 2026. No representa la programación oficial.",
+  "items": [
+    {
+      "id": "ag-001",
+      "day": "2026-08-14",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "title": "Apertura oficial ExpoJuy 2026 (demo)",
+      "speaker": "Comité Organizador (ficticio)",
+      "stage": "Auditorio Central",
+      "track": "institucional"
+    },
+    {
+      "id": "ag-002",
+      "day": "2026-08-14",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "El litio como motor del NOA (demo)",
+      "speaker": "Panel de especialistas (ficticio)",
+      "stage": "Sala Puna",
+      "track": "mineria-energia"
+    },
+    {
+      "id": "ag-003",
+      "day": "2026-08-14",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "title": "Turismo sostenible en la Quebrada (demo)",
+      "speaker": "Mesa de turismo (ficticio)",
+      "stage": "Sala Quebrada",
+      "track": "turismo"
+    },
+    {
+      "id": "ag-004",
+      "day": "2026-08-15",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "title": "Transformación digital para pymes (demo)",
+      "speaker": "Comunidad tech local (ficticio)",
+      "stage": "Sala Innovación",
+      "track": "tecnologia"
+    },
+    {
+      "id": "ag-005",
+      "day": "2026-08-15",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "Ronda de negocios agroindustrial (demo)",
+      "speaker": "Matchmaking B2B (ficticio)",
+      "stage": "Salón de Negocios",
+      "track": "agroindustria"
+    },
+    {
+      "id": "ag-006",
+      "day": "2026-08-15",
+      "startTime": "17:00",
+      "endTime": "18:30",
+      "title": "Cierre y show de artesanías andinas (demo)",
+      "speaker": "Artistas regionales (ficticio)",
+      "stage": "Auditorio Central",
+      "track": "artesanias"
+    }
+  ]
+}

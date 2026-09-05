@@ -1,0 +1,15 @@
+{
+  "_mock": true,
+  "_disclaimer": "Datos institucionales preliminares para el Desafío Digital ExpoJuy 2026. Edición, fechas, superficie y aforo son estimativos y serán reemplazados por los valores oficiales.",
+  "edition": 18,
+  "startDate": "2026-10-10",
+  "endDate": "2026-10-19",
+  "venue": "Ciudad Cultural",
+  "city": "San Salvador de Jujuy",
+  "stats": {
+    "stands": 190,
+    "surfaceM2": 10000,
+    "visitors": 15000,
+    "editions": 18
+  }
+}

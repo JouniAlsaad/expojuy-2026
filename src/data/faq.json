@@ -1,0 +1,54 @@
+{
+  "_mock": true,
+  "_disclaimer": "Preguntas frecuentes de demostración para el Desafío Digital ExpoJuy 2026. La información definitiva la publicará la organización.",
+  "items": [
+    {
+      "id": "faq-001",
+      "category": "general",
+      "question": "¿Cuándo y dónde se realiza ExpoJuy 2026? (demo)",
+      "answer": "ExpoJuy 2026 se desarrollará en la Ciudad Cultural de San Salvador de Jujuy. Las fechas definitivas serán confirmadas por la organización. Los datos mostrados en esta propuesta son preliminares."
+    },
+    {
+      "id": "faq-002",
+      "category": "entradas",
+      "question": "¿Cómo consigo mi entrada? (demo)",
+      "answer": "Vas a poder gestionar tu acceso desde la sección Entradas del sitio: elegís el tipo de entrada, completás tus datos y recibís tu acceso digital con código QR."
+    },
+    {
+      "id": "faq-003",
+      "category": "entradas",
+      "question": "¿La entrada general tiene costo? (demo)",
+      "answer": "La propuesta contempla una entrada general sin cargo con registro previo, además de entradas empresariales y VIP con beneficios adicionales. Los valores son de ejemplo."
+    },
+    {
+      "id": "faq-004",
+      "category": "expositores",
+      "question": "¿Cómo hago para exponer en la feria? (demo)",
+      "answer": "Las empresas interesadas en participar como expositoras pueden escribir desde el formulario de contacto seleccionando el motivo Expositor. El equipo comercial se contacta con la propuesta de stands."
+    },
+    {
+      "id": "faq-005",
+      "category": "expositores",
+      "question": "¿Puedo buscar un expositor por rubro? (demo)",
+      "answer": "Sí. La sección Expositores incluye un buscador y filtros por rubro para que encuentres rápido a las empresas que te interesan."
+    },
+    {
+      "id": "faq-006",
+      "category": "general",
+      "question": "¿El predio es accesible? (demo)",
+      "answer": "El sitio está diseñado siguiendo pautas WCAG 2.1 AA. La organización trabaja para que el predio cuente con accesos y servicios accesibles; la información definitiva se publicará antes del evento."
+    },
+    {
+      "id": "faq-007",
+      "category": "general",
+      "question": "¿Cómo llego y dónde puedo estacionar? (demo)",
+      "answer": "En la sección Mapa vas a encontrar accesos, pabellones y servicios del predio. La información de transporte y estacionamiento se sumará en la etapa de desarrollo."
+    },
+    {
+      "id": "faq-008",
+      "category": "expositores",
+      "question": "¿Qué son las rondas de negocios B2B? (demo)",
+      "answer": "Son encuentros agendados entre empresas y visitantes profesionales. La propuesta contempla un sistema de matchmaking para solicitar reuniones desde el sitio."
+    }
+  ]
+}

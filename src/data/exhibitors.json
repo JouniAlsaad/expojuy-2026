@@ -1,0 +1,102 @@
+{
+  "_mock": true,
+  "_disclaimer": "Datos ficticios generados para el Desafío Digital ExpoJuy 2026. No representan expositores reales.",
+  "items": [
+    {
+      "id": "exp-001",
+      "name": "Litio Andino S.A. (ficticio)",
+      "slug": "litio-andino",
+      "category": "mineria-energia",
+      "summary": "Empresa demo de extracción y procesamiento de litio en las salinas jujeñas.",
+      "pavilion": "Pabellón Puna",
+      "booth": "A-12",
+      "website": "https://litio-andino.example",
+      "logoUrl": null,
+      "featured": true
+    },
+    {
+      "id": "exp-002",
+      "name": "Cooperativa Tabacalera del Valle (ficticio)",
+      "slug": "cooperativa-tabacalera-valle",
+      "category": "agroindustria",
+      "summary": "Cooperativa demo de productores tabacaleros de los valles templados.",
+      "pavilion": "Pabellón Valles",
+      "booth": "B-04",
+      "website": null,
+      "logoUrl": null,
+      "featured": false
+    },
+    {
+      "id": "exp-003",
+      "name": "Turismo Quebrada Experiencias (ficticio)",
+      "slug": "quebrada-experiencias",
+      "category": "turismo",
+      "summary": "Operador turístico demo con circuitos por la Quebrada de Humahuaca.",
+      "pavilion": "Pabellón Quebrada",
+      "booth": "C-21",
+      "website": "https://quebrada-experiencias.example",
+      "logoUrl": null,
+      "featured": true
+    },
+    {
+      "id": "exp-004",
+      "name": "Yungas Software (ficticio)",
+      "slug": "yungas-software",
+      "category": "tecnologia",
+      "summary": "Estudio demo de software y soluciones IoT para la industria regional.",
+      "pavilion": "Pabellón Innovación",
+      "booth": "D-08",
+      "website": "https://yungas-software.example",
+      "logoUrl": null,
+      "featured": false
+    },
+    {
+      "id": "exp-005",
+      "name": "Telar Coya Artesanías (ficticio)",
+      "slug": "telar-coya",
+      "category": "artesanias",
+      "summary": "Taller demo de textiles andinos en fibra de llama y tintes naturales.",
+      "pavilion": "Pabellón Artesanal",
+      "booth": "E-15",
+      "website": null,
+      "logoUrl": null,
+      "featured": false
+    },
+    {
+      "id": "exp-006",
+      "name": "Sabores del Norte Gourmet (ficticio)",
+      "slug": "sabores-del-norte",
+      "category": "gastronomia",
+      "summary": "Marca demo de conservas y productos gourmet a base de insumos andinos.",
+      "pavilion": "Pabellón Gastronómico",
+      "booth": "F-03",
+      "website": "https://sabores-del-norte.example",
+      "logoUrl": null,
+      "featured": true
+    },
+    {
+      "id": "exp-007",
+      "name": "Logística NOA Integral (ficticio)",
+      "slug": "logistica-noa",
+      "category": "servicios",
+      "summary": "Empresa demo de logística y comercio exterior para el norte argentino.",
+      "pavilion": "Pabellón Servicios",
+      "booth": "G-19",
+      "website": null,
+      "logoUrl": null,
+      "featured": false
+    },
+    {
+      "id": "exp-008",
+      "name": "Solar Puna Energía (ficticio)",
+      "slug": "solar-puna",
+      "category": "mineria-energia",
+      "summary": "Desarrolladora demo de parques solares en la región de la Puna.",
+      "pavilion": "Pabellón Puna",
+      "booth": "A-27",
+      "website": "https://solar-puna.example",
+      "logoUrl": null,
+      "featured": false
+    }
+  ]
+}

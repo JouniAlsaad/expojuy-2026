@@ -1,0 +1,90 @@
+{
+  "_mock": true,
+  "_disclaimer": "Sponsors ficticios generados para el Desafío Digital ExpoJuy 2026. No representan patrocinadores reales.",
+  "items": [
+    {
+      "id": "sp-001",
+      "name": "Minera Grande del Norte (ficticio)",
+      "tier": "diamond",
+      "website": "https://minera-grande-norte.example",
+      "logoUrl": null
+    },
+    {
+      "id": "sp-002",
+      "name": "Banco del Norte (ficticio)",
+      "tier": "platinum",
+      "website": "https://banco-del-norte.example",
+      "logoUrl": null
+    },
+    {
+      "id": "sp-003",
+      "name": "Energía Andina (ficticio)",
+      "tier": "platinum",
+      "website": "https://energia-andina.example",
+      "logoUrl": null
+    },
+    {
+      "id": "sp-004",
+      "name": "Telco Puna (ficticio)",
+      "tier": "gold",
+      "website": "https://telco-puna.example",
+      "logoUrl": null
+    },
+    {
+      "id": "sp-005",
+      "name": "Aerolíneas del Valle (ficticio)",
+      "tier": "gold",
+      "website": null,
+      "logoUrl": null
+    },
+    {
+      "id": "sp-006",
+      "name": "Constructora Yungas (ficticio)",
+      "tier": "gold",
+      "website": null,
+      "logoUrl": null
+    },
+    {
+      "id": "sp-007",
+      "name": "Universidad Regional NOA (ficticio)",
+      "tier": "silver",
+      "website": "https://universidad-noa.example",
+      "logoUrl": null
+    },
+    {
+      "id": "sp-008",
+      "name": "Cámara Pyme Jujuy (ficticio)",
+      "tier": "silver",
+      "website": null,
+      "logoUrl": null
+    },
+    {
+      "id": "sp-009",
+      "name": "Seguros del Alto (ficticio)",
+      "tier": "silver",
+      "website": null,
+      "logoUrl": null
+    },
+    {
+      "id": "sp-010",
+      "name": "Cooperativa Andina de Servicios (ficticio)",
+      "tier": "bronze",
+      "website": null,
+      "logoUrl": null
+    },
+    {
+      "id": "sp-011",
+      "name": "Estudio Creativo Coya (ficticio)",
+      "tier": "bronze",
+      "website": null,
+      "logoUrl": null
+    },
+    {
+      "id": "sp-012",
+      "name": "Transporte Norteño (ficticio)",
+      "tier": "bronze",
+      "website": null,
+      "logoUrl": null
+    }
+  ]
+}
