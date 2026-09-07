@@ -64,3 +64,6 @@ docs/CONSIGNAS_TECNICAS_DEL_DESAF*.md
 docs/instrucciones-req.md
 docs/Contexto_expojuy_2026.md
 docs/*.pdf
+
+# Contexto interno para Claude Code
+CLAUDE.md
