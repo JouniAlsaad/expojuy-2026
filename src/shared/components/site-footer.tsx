@@ -37,6 +37,8 @@ export async function SiteFooter() {
               <a
                 key={social.platform}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={a11y(social.labelKey)}
                 className="text-muted-foreground transition-colors hover:text-brand-text"
               >
@@ -48,7 +50,7 @@ export async function SiteFooter() {
 
         <nav className="space-y-3">
           <h2 className="text-sm font-semibold text-foreground">{t("sections")}</h2>
-          <ul className="space-y-2">
+          <ul className="grid grid-cols-2 gap-x-8 gap-y-2">
             {footerNav.map((link) => (
               <li key={link.href}>
                 <Link

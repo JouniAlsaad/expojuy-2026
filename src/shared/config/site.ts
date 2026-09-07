@@ -21,8 +21,6 @@ export interface SocialLink {
 }
 
 export const socialLinks: readonly SocialLink[] = [
-  { platform: "instagram", href: "#", labelKey: "instagram" },
-  { platform: "facebook", href: "#", labelKey: "facebook" },
-  { platform: "youtube", href: "#", labelKey: "youtube" },
-  { platform: "x", href: "#", labelKey: "x" },
+  { platform: "instagram", href: "https://www.instagram.com/expojuy/", labelKey: "instagram" },
+  { platform: "facebook", href: "https://www.facebook.com/expojuy/", labelKey: "facebook" },
 ];

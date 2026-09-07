@@ -41,9 +41,9 @@ export async function SponsorsPreview({ sponsors }: SponsorsPreviewProps) {
           {sponsors.map((sponsor) => (
             <div
               key={sponsor.id}
-              className="flex items-center justify-center rounded-lg border border-border bg-card p-6 text-center font-medium text-card-foreground text-sm shadow-soft"
+              className="flex items-center justify-center rounded-lg border border-border bg-card p-6 text-center font-display font-semibold text-card-foreground text-sm shadow-soft"
             >
-              {sponsor.name}
+              {sponsor.name.replace(/\s*\(ficticio\)\s*/i, "").trim()}
             </div>
           ))}
         </div>

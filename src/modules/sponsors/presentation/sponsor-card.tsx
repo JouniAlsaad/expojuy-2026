@@ -1,36 +1,23 @@
 import { ExternalLink } from "lucide-react";
 import type { SponsorDto } from "@/modules/sponsors/application";
+import { SponsorLogo } from "./sponsor-logo";
 
 interface SponsorCardProps {
   sponsor: SponsorDto;
 }
 
-function monogram(name: string): string {
-  return name
-    .replace(/\(ficticio\)/gi, "")
-    .trim()
-    .split(/\s+/)
-    .slice(0, 2)
-    .map((word) => word.charAt(0))
-    .join("")
-    .toUpperCase();
-}
-
 export function SponsorCard({ sponsor }: SponsorCardProps) {
+  const className =
+    "flex items-center justify-between gap-3 rounded-lg border border-border bg-card p-4 shadow-soft transition-shadow hover:shadow-elevated";
+
   const content = (
-    <span className="flex w-full items-center gap-3">
-      <span className="inline-flex size-11 shrink-0 items-center justify-center rounded-md bg-muted font-display text-sm font-semibold text-brand-text">
-        {monogram(sponsor.name)}
-      </span>
-      <span className="flex-1 text-sm font-medium text-card-foreground">{sponsor.name}</span>
+    <>
+      <SponsorLogo sponsor={sponsor} />
       {sponsor.website ? (
         <ExternalLink className="size-4 shrink-0 text-muted-foreground" aria-hidden />
       ) : null}
-    </span>
+    </>
   );
-
-  const className =
-    "flex items-center rounded-lg border border-border bg-card p-4 shadow-soft transition-shadow hover:shadow-elevated";
 
   if (sponsor.website) {
     return (
