@@ -9,6 +9,7 @@
     "sponsors": "Sponsors",
     "tickets": "Entradas",
     "route": "Ruta IA",
+    "matchmaking": "Matchmaking",
     "faq": "FAQ",
     "contact": "Contacto"
   },
@@ -171,6 +172,11 @@
       "title": "Ruta IA",
       "eyebrow": "Planificá con IA",
       "description": "Armá una ruta personalizada por la feria según tus intereses y el tiempo disponible."
+    },
+    "matchmaking": {
+      "title": "Matchmaking B2B",
+      "eyebrow": "Hacé negocios",
+      "description": "Solicitá reuniones de negocios con las empresas expositoras de ExpoJuy 2026."
     }
   },
   "exhibitors": {
@@ -192,6 +198,37 @@
       "artesanias": "Artesanías",
       "gastronomia": "Gastronomía",
       "servicios": "Servicios"
+    }
+  },
+  "matchmaking": {
+    "listTitle": "Reuniones de negocios en la feria",
+    "listDescription": "Elegí una empresa expositora, proponé un horario y solicitá una reunión B2B. Este es un flujo de demostración con datos ficticios.",
+    "request": "Solicitar reunión",
+    "form": {
+      "back": "Volver a las empresas",
+      "slot": "Horario propuesto",
+      "name": "Nombre y apellido",
+      "company": "Tu empresa u organización",
+      "email": "Correo electrónico",
+      "message": "Mensaje (opcional)",
+      "confirm": "Solicitar reunión",
+      "errors": {
+        "nameMin": "Ingresá tu nombre completo.",
+        "companyMin": "Ingresá el nombre de tu empresa.",
+        "emailInvalid": "Ingresá un correo electrónico válido.",
+        "messageMax": "El mensaje es demasiado largo.",
+        "slotRequired": "Elegí un horario propuesto."
+      }
+    },
+    "done": {
+      "title": "¡Reunión solicitada!",
+      "subtitle": "La empresa recibirá tu solicitud y confirmará el horario.",
+      "code": "Código",
+      "exhibitor": "Empresa",
+      "slot": "Horario",
+      "requester": "Solicitante",
+      "demoNotice": "Solicitud de demostración: no se envió ninguna reunión real. En la etapa de desarrollo se integra la agenda de reuniones oficial.",
+      "again": "Solicitar otra reunión"
     }
   },
   "itinerary": {

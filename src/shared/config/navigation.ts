@@ -21,6 +21,7 @@ export const footerNav: readonly NavLink[] = [
   { href: "/agenda", labelKey: "agenda" },
   { href: "/mapa", labelKey: "map" },
   { href: "/ruta-ia", labelKey: "route" },
+  { href: "/matchmaking", labelKey: "matchmaking" },
   { href: "/noticias", labelKey: "news" },
   { href: "/sponsors", labelKey: "sponsors" },
   { href: "/entradas", labelKey: "tickets" },
