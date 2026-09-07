@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import type { SponsorDto } from "@/modules/sponsors";
+import { SponsorCard, type SponsorDto } from "@/modules/sponsors";
 import { Reveal } from "@/shared/components";
 import { cn } from "@/shared/lib/utils";
 import { buttonVariants } from "@/shared/ui/button";
@@ -37,14 +37,14 @@ export async function SponsorsPreview({ sponsors }: SponsorsPreviewProps) {
             <ArrowRight className="size-4" aria-hidden />
           </Link>
         </Reveal>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="flex flex-wrap justify-center gap-5">
           {sponsors.map((sponsor) => (
-            <div
+            <SponsorCard
               key={sponsor.id}
-              className="flex items-center justify-center rounded-lg border border-border bg-card p-6 text-center font-display font-semibold text-card-foreground text-sm shadow-soft"
-            >
-              {sponsor.name.replace(/\s*\(ficticio\)\s*/i, "").trim()}
-            </div>
+              sponsor={sponsor}
+              size="md"
+              className="w-full p-8 sm:w-64"
+            />
           ))}
         </div>
       </div>
