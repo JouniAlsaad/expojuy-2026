@@ -5,7 +5,7 @@
     {
       "id": "tk-general",
       "slug": "general",
-      "name": "General (ficticio)",
+      "name": "General",
       "price": 0,
       "highlighted": false,
       "perks": [
@@ -17,7 +17,7 @@
     {
       "id": "tk-empresarial",
       "slug": "empresarial",
-      "name": "Empresarial (ficticio)",
+      "name": "Empresarial",
       "price": 15000,
       "highlighted": true,
       "perks": [
@@ -30,7 +30,7 @@
     {
       "id": "tk-vip",
       "slug": "vip",
-      "name": "VIP (ficticio)",
+      "name": "VIP",
       "price": 40000,
       "highlighted": false,
       "perks": [

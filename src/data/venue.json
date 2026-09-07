@@ -4,7 +4,7 @@
   "zones": [
     {
       "id": "vz-auditorio",
-      "name": "Auditorio Central (demo)",
+      "name": "Auditorio Central",
       "kind": "auditorio",
       "category": null,
       "description": "Escenario principal para aperturas, conferencias y cierres.",
@@ -15,7 +15,7 @@
     },
     {
       "id": "vz-negocios",
-      "name": "Salón de Negocios (demo)",
+      "name": "Salón de Negocios",
       "kind": "servicio",
       "category": null,
       "description": "Rondas de negocios B2B y salas de reunión para expositores.",
@@ -26,7 +26,7 @@
     },
     {
       "id": "vz-puna",
-      "name": "Pabellón Puna (demo)",
+      "name": "Pabellón Puna",
       "kind": "pabellon",
       "category": "mineria-energia",
       "description": "Empresas de minería, litio y energía de la región.",
@@ -37,7 +37,7 @@
     },
     {
       "id": "vz-valles",
-      "name": "Pabellón Valles (demo)",
+      "name": "Pabellón Valles",
       "kind": "pabellon",
       "category": "agroindustria",
       "description": "Agroindustria, producción tabacalera y economías regionales.",
@@ -48,7 +48,7 @@
     },
     {
       "id": "vz-quebrada",
-      "name": "Pabellón Quebrada (demo)",
+      "name": "Pabellón Quebrada",
       "kind": "pabellon",
       "category": "turismo",
       "description": "Turismo, experiencias y destinos de la Quebrada y la Puna.",
@@ -59,7 +59,7 @@
     },
     {
       "id": "vz-innovacion",
-      "name": "Pabellón Innovación (demo)",
+      "name": "Pabellón Innovación",
       "kind": "pabellon",
       "category": "tecnologia",
       "description": "Tecnología, software y economía del conocimiento.",
@@ -70,7 +70,7 @@
     },
     {
       "id": "vz-artesanal",
-      "name": "Pabellón Artesanal (demo)",
+      "name": "Pabellón Artesanal",
       "kind": "pabellon",
       "category": "artesanias",
       "description": "Artesanías andinas, textiles y diseño regional.",
@@ -81,7 +81,7 @@
     },
     {
       "id": "vz-gastronomico",
-      "name": "Pabellón Gastronómico (demo)",
+      "name": "Pabellón Gastronómico",
       "kind": "pabellon",
       "category": "gastronomia",
       "description": "Sabores del Norte, productos gourmet y cocina regional.",
@@ -92,7 +92,7 @@
     },
     {
       "id": "vz-servicios",
-      "name": "Pabellón Servicios (demo)",
+      "name": "Pabellón Servicios",
       "kind": "pabellon",
       "category": "servicios",
       "description": "Logística, comercio exterior y servicios profesionales.",
@@ -103,7 +103,7 @@
     },
     {
       "id": "vz-patio",
-      "name": "Patio Gastronómico (demo)",
+      "name": "Patio Gastronómico",
       "kind": "servicio",
       "category": null,
       "description": "Espacio de descanso con propuestas gastronómicas y foodtrucks.",
@@ -114,7 +114,7 @@
     },
     {
       "id": "vz-estacionamiento",
-      "name": "Estacionamiento (demo)",
+      "name": "Estacionamiento",
       "kind": "servicio",
       "category": null,
       "description": "Playa de estacionamiento y acceso vehicular.",
@@ -125,7 +125,7 @@
     },
     {
       "id": "vz-acceso",
-      "name": "Acceso Principal (demo)",
+      "name": "Acceso Principal",
       "kind": "acceso",
       "category": null,
       "description": "Ingreso principal, acreditación y punto de información.",
