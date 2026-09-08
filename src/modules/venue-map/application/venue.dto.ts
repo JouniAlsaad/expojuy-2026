@@ -1,5 +1,10 @@
 import type { ZoneKindSlug } from "@/modules/venue-map/domain";
 
+export interface VenueZoneHighlightDto {
+  brand: string;
+  product: string;
+}
+
 export interface VenueZoneDto {
   id: string;
   name: string;
@@ -10,4 +15,5 @@ export interface VenueZoneDto {
   y: number;
   width: number;
   height: number;
+  highlights: VenueZoneHighlightDto[];
 }

@@ -13,5 +13,9 @@ export function toVenueZoneDto(zone: VenueZone): VenueZoneDto {
     y: geometry.y,
     width: geometry.width,
     height: geometry.height,
+    highlights: zone.highlights.map((highlight) => ({
+      brand: highlight.brand,
+      product: highlight.product,
+    })),
   };
 }
