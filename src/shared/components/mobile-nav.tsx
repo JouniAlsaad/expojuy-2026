@@ -7,7 +7,9 @@ import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useState } from "react";
 import { fadeInUp, staggerContainer } from "@/design-system/animations";
 import { closeIcon, menuIcon } from "@/shared/config/morph-icons";
-import { primaryNav } from "@/shared/config/navigation";
+import { actionLinks, primaryNav } from "@/shared/config/navigation";
+import { cn } from "@/shared/lib/utils";
+import { buttonVariants } from "@/shared/ui/button";
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -34,7 +36,7 @@ export function MobileNav() {
   }, [open]);
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <button
         type="button"
         onClick={() => setOpen((previous) => !previous)}
@@ -52,7 +54,7 @@ export function MobileNav() {
             id="mobile-navigation"
             role="dialog"
             aria-modal="true"
-            className="fixed inset-0 z-50 flex flex-col bg-background"
+            className="fixed inset-0 z-50 flex flex-col overflow-y-auto bg-background"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -62,19 +64,41 @@ export function MobileNav() {
               variants={staggerContainer}
               initial="hidden"
               animate="visible"
-              className="flex flex-1 flex-col justify-center gap-2 px-8"
+              className="flex flex-1 flex-col justify-center gap-2 px-8 py-20"
             >
               {primaryNav.map((link) => (
                 <motion.div key={link.href} variants={fadeInUp}>
                   <Link
                     href={link.href}
                     onClick={close}
-                    className="block py-3 font-display text-3xl text-foreground transition-colors hover:text-brand-text"
+                    className="block py-2 font-display text-3xl text-foreground transition-colors hover:text-secondary"
                   >
                     {t(link.labelKey)}
                   </Link>
                 </motion.div>
               ))}
+
+              <motion.div variants={fadeInUp} className="mt-6 flex flex-col gap-3">
+                {actionLinks.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={close}
+                    className={cn(buttonVariants({ variant: "outline", size: "lg" }), "w-full")}
+                  >
+                    {t(link.labelKey)}
+                  </a>
+                ))}
+                <Link
+                  href="/entradas"
+                  onClick={close}
+                  className={cn(buttonVariants({ variant: "primary", size: "lg" }), "w-full")}
+                >
+                  {t("tickets")}
+                </Link>
+              </motion.div>
             </motion.nav>
           </motion.div>
         ) : null}

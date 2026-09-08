@@ -11,7 +11,9 @@
     "route": "Ruta IA",
     "matchmaking": "Matchmaking",
     "faq": "FAQ",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "businessRound": "Ronda de Negocios",
+    "suppliers": "Convocatoria de proveedores"
   },
   "brand": {
     "name": "ExpoJuy 2026",
@@ -26,6 +28,7 @@
   "a11y": {
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
+    "goHome": "Ir al inicio",
     "switchToLight": "Cambiar a tema claro",
     "switchToDark": "Cambiar a tema oscuro",
     "instagram": "Instagram de ExpoJuy",
