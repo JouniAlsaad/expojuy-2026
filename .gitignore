@@ -48,16 +48,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-
-
-
-
-# Fuentes con licencia comercial (Colophon Foundry - kit oficial ExpoJuy)
-public/fonts/*.woff2
-public/fonts/*.woff
-public/fonts/*.otf
-public/fonts/*.ttf
-
 # Documentos internos del concurso (bases oficiales, memoria, contexto)
 docs/BASES_Y_CONDICIONES.md
 docs/CONSIGNAS_TECNICAS_DEL_DESAF*.md
