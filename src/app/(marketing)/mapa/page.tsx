@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { createVenueRepository, GetVenueZonesUseCase, VenueMap } from "@/modules/venue-map";
+import {
+  createVenueRepository,
+  GetVenueZonesUseCase,
+  VenueLocation,
+  VenueMap,
+} from "@/modules/venue-map";
 import { PagePlaceholder } from "@/shared/components";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -28,6 +33,7 @@ export default async function MapPage() {
         </div>
         <VenueMap zones={zones} />
         <p className="text-xs text-muted-foreground">{common("mockNotice")}</p>
+        <VenueLocation />
       </div>
     </PagePlaceholder>
   );

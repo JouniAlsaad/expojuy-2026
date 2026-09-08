@@ -284,6 +284,11 @@
     "selectPrompt": "Seleccioná una zona del plano para ver su información.",
     "highlightsTitle": "Presentaron en la edición anterior",
     "zonesNote": "Las zonas coloreadas indican el rubro; las grises son servicios, accesos y espacios comunes.",
+    "locationEyebrow": "Te esperamos",
+    "locationTitle": "En el corazón de Jujuy",
+    "locationDescription": "La Ciudad Cultural está a pocos minutos del centro de San Salvador de Jujuy, con acceso rápido a los puntos más importantes de la ciudad.",
+    "locationCta": "Ver en Google Maps",
+    "locationMapTitle": "Mapa de ubicación de la Ciudad Cultural, sede de ExpoJuy 2026",
     "kinds": {
       "pabellon": "Pabellón",
       "servicio": "Servicio",
