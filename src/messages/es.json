@@ -282,11 +282,8 @@
     "zonesLabel": "Seleccionar una zona del predio",
     "allCategories": "Todos los rubros",
     "selectPrompt": "Seleccioná una zona del plano para ver su información.",
-    "legendTitle": "Referencias",
-    "legendCategoriesTitle": "Rubros",
-    "legendKindsTitle": "Otras zonas",
-    "legendPabellon": "Pabellón",
-    "legendCommon": "Servicios, accesos y espacios comunes",
+    "highlightsTitle": "Presentaron en la edición anterior",
+    "zonesNote": "Las zonas coloreadas indican el rubro; las grises son servicios, accesos y espacios comunes.",
     "kinds": {
       "pabellon": "Pabellón",
       "servicio": "Servicio",
@@ -419,8 +416,14 @@
     "followUs": "Seguinos",
     "contactTitle": "Contacto",
     "address": "Ciudad Cultural, San Salvador de Jujuy",
+    "organizer": "Organiza",
+    "organizerName": "Cámara de Comercio Exterior de Jujuy",
     "copyright": "© {year} Cámara de Comercio Exterior de Jujuy. Todos los derechos reservados.",
-    "credit": "Propuesta desarrollada para el Desafío Digital ExpoJuy 2026."
+    "credit": "Propuesta desarrollada para el Desafío Digital ExpoJuy 2026.",
+    "builtBy": "Sitio desarrollado por",
+    "studioName": "Sintaxia",
+    "studioTagline": "Creando soluciones a medida",
+    "studioCopyright": "© {year} · Todos los derechos reservados"
   },
   "notFound": {
     "title": "Esta página no existe en ExpoJuy 2026",

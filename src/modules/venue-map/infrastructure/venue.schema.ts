@@ -1,6 +1,11 @@
 import { z } from "zod";
 import { ZONE_KINDS } from "@/modules/venue-map/domain";
 
+export const zoneHighlightRecordSchema = z.object({
+  brand: z.string().min(1),
+  product: z.string().min(1),
+});
+
 export const venueZoneRecordSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
@@ -11,6 +16,7 @@ export const venueZoneRecordSchema = z.object({
   y: z.number(),
   width: z.number().positive(),
   height: z.number().positive(),
+  highlights: z.array(zoneHighlightRecordSchema).default([]),
 });
 
 export type VenueZoneRecord = z.infer<typeof venueZoneRecordSchema>;

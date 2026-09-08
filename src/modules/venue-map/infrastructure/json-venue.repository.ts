@@ -11,6 +11,7 @@ function toEntity(record: VenueZoneRecord): VenueZone {
     category: record.category,
     description: record.description,
     geometry: { x: record.x, y: record.y, width: record.width, height: record.height },
+    highlights: record.highlights,
   });
 }
 

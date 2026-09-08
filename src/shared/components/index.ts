@@ -3,6 +3,7 @@ export * from "./mobile-nav";
 export * from "./page-placeholder";
 export * from "./reveal";
 export * from "./section-hero";
+export * from "./site-credit";
 export * from "./site-footer";
 export * from "./site-header";
 export * from "./smooth-scroll-provider";

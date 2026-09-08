@@ -114,8 +114,14 @@
   --color-neutral-900: #403f41;
   --color-neutral-950: #2a2a2b;
 
+  --color-sintaxia-bg: #1a1220;
+  --color-sintaxia-fg: #f4efec;
+  --color-sintaxia-muted: #a2949a;
+
   --font-sans: var(--font-ambit), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-ambit), ui-sans-serif, system-ui, sans-serif;
+
+  --container-8xl: 90rem;
 
   --shadow-soft: 0 1px 2px rgb(64 63 65 / 0.04), 0 2px 8px rgb(64 63 65 / 0.08);
   --shadow-elevated: 0 8px 24px rgb(64 63 65 / 0.12);

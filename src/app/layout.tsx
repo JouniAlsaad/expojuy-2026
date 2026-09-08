@@ -3,7 +3,13 @@ import Script from "next/script";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import type { ReactNode } from "react";
-import { SiteFooter, SiteHeader, SmoothScrollProvider, ThemeProvider } from "@/shared/components";
+import {
+  SiteCredit,
+  SiteFooter,
+  SiteHeader,
+  SmoothScrollProvider,
+  ThemeProvider,
+} from "@/shared/components";
 import { ambit } from "@/shared/config/fonts";
 import "./globals.css";
 
@@ -55,6 +61,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
               <SiteHeader />
               <main className="flex flex-1 flex-col">{children}</main>
               <SiteFooter />
+              <SiteCredit />
             </SmoothScrollProvider>
           </ThemeProvider>
         </NextIntlClientProvider>

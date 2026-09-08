@@ -86,21 +86,27 @@ export function VenueMap({ zones }: VenueMapProps) {
   }
 
   return (
-    <div className="space-y-6">
-      <fieldset className="m-0 flex flex-wrap gap-2 border-0 p-0">
+    <div className="space-y-8">
+      <fieldset className="mx-0 flex flex-wrap gap-2.5 border-0 p-0">
         <legend className="sr-only">{t("filterLabel")}</legend>
         <FilterChip active={filter === "all"} onClick={() => setFilter("all")}>
           {t("allCategories")}
         </FilterChip>
         {availableCategories.map((slug) => (
           <FilterChip key={slug} active={filter === slug} onClick={() => setFilter(slug)}>
-            {categories(`categories.${slug}`)}
+            <span className="inline-flex items-center gap-2">
+              <span
+                aria-hidden
+                className={cn("size-2.5 shrink-0 rounded-full", CATEGORY_SWATCH[slug])}
+              />
+              {categories(`categories.${slug}`)}
+            </span>
           </FilterChip>
         ))}
       </fieldset>
 
-      <div className="grid gap-6 lg:grid-cols-3">
-        <div className="space-y-4 lg:col-span-2">
+      <div className="grid gap-8 lg:grid-cols-3">
+        <div className="space-y-8 lg:col-span-2">
           <svg
             viewBox="0 0 1240 860"
             className="h-auto w-full rounded-lg border border-border bg-background"
@@ -139,7 +145,7 @@ export function VenueMap({ zones }: VenueMapProps) {
             ))}
           </svg>
 
-          <fieldset className="m-0 flex flex-wrap gap-2 border-0 p-0">
+          <fieldset className="mx-0 flex flex-wrap gap-2.5 border-0 p-0">
             <legend className="sr-only">{t("zonesLabel")}</legend>
             {zones.map((zone) => (
               <button
@@ -148,7 +154,7 @@ export function VenueMap({ zones }: VenueMapProps) {
                 aria-pressed={zone.id === selectedId}
                 onClick={() => setSelectedId(zone.id)}
                 className={cn(
-                  "rounded-md border px-3 py-1.5 text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background",
+                  "rounded-md border px-3.5 py-2 text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background",
                   zone.id === selectedId
                     ? "border-transparent bg-secondary text-secondary-foreground"
                     : "border-border bg-background text-muted-foreground hover:text-foreground",
@@ -159,53 +165,16 @@ export function VenueMap({ zones }: VenueMapProps) {
             ))}
           </fieldset>
 
-          <div className="space-y-3 rounded-lg border border-border bg-card p-4">
-            <h3 className="font-medium text-sm text-card-foreground">{t("legendTitle")}</h3>
-            <div className="space-y-1.5">
-              <p className="text-xs font-medium text-muted-foreground">
-                {t("legendCategoriesTitle")}
-              </p>
-              <ul className="flex flex-wrap gap-x-4 gap-y-2">
-                {EXHIBITOR_CATEGORIES.map((slug) => (
-                  <li
-                    key={slug}
-                    className="inline-flex items-center gap-2 text-sm text-muted-foreground"
-                  >
-                    <span
-                      aria-hidden
-                      className={cn(
-                        "size-3 shrink-0 rounded-sm border border-border",
-                        CATEGORY_SWATCH[slug],
-                      )}
-                    />
-                    {categories(`categories.${slug}`)}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="space-y-1.5">
-              <p className="text-xs font-medium text-muted-foreground">{t("legendKindsTitle")}</p>
-              <ul className="flex flex-wrap gap-x-4 gap-y-2">
-                <li className="inline-flex items-center gap-2 text-sm text-muted-foreground">
-                  <span
-                    aria-hidden
-                    className="size-3 shrink-0 rounded-sm border border-border bg-card"
-                  />
-                  {t("legendPabellon")}
-                </li>
-                <li className="inline-flex items-center gap-2 text-sm text-muted-foreground">
-                  <span
-                    aria-hidden
-                    className="size-3 shrink-0 rounded-sm border border-border bg-muted"
-                  />
-                  {t("legendCommon")}
-                </li>
-              </ul>
-            </div>
-          </div>
+          <p className="flex items-center gap-2 text-muted-foreground text-sm">
+            <span
+              aria-hidden
+              className="size-3 shrink-0 rounded-sm border border-border bg-muted"
+            />
+            {t("zonesNote")}
+          </p>
         </div>
 
-        <aside className="rounded-lg border border-border bg-card p-6 shadow-soft">
+        <aside className="self-start rounded-lg border border-border bg-card p-6 shadow-soft lg:sticky lg:top-24">
           {selected ? (
             <div className="space-y-3">
               <span className="inline-flex items-center rounded-full border border-transparent bg-accent-soft px-2.5 py-0.5 text-xs font-medium text-accent-soft-foreground">
@@ -221,6 +190,23 @@ export function VenueMap({ zones }: VenueMapProps) {
                 </p>
               ) : null}
               <p className="text-sm text-muted-foreground">{selected.description}</p>
+              {selected.highlights.length > 0 ? (
+                <div className="space-y-3 border-border border-t pt-4">
+                  <p className="font-medium text-muted-foreground text-xs uppercase tracking-wide">
+                    {t("highlightsTitle")}
+                  </p>
+                  <ul className="space-y-3">
+                    {selected.highlights.map((highlight) => (
+                      <li key={highlight.brand} className="space-y-0.5">
+                        <p className="font-medium text-card-foreground text-sm">
+                          {highlight.brand}
+                        </p>
+                        <p className="text-muted-foreground text-sm">{highlight.product}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
             </div>
           ) : (
             <p className="text-sm text-muted-foreground">{t("selectPrompt")}</p>

@@ -22,7 +22,17 @@
       "x": 440,
       "y": 120,
       "width": 560,
-      "height": 60
+      "height": 60,
+      "highlights": [
+        {
+          "brand": "NeoVista (ficticio)",
+          "product": "Visor de realidad aumentada tipo Oculus para capacitación técnica."
+        },
+        {
+          "brand": "Kanchá Robotics (ficticio)",
+          "product": "Robots asistentes para tareas domésticas y del hogar."
+        }
+      ]
     },
     {
       "id": "vz-pabellon-b",
@@ -33,7 +43,17 @@
       "x": 450,
       "y": 200,
       "width": 430,
-      "height": 200
+      "height": 200,
+      "highlights": [
+        {
+          "brand": "Andes Litio (ficticio)",
+          "product": "Prototipo de batería de litio de carga rápida para maquinaria agrícola."
+        },
+        {
+          "brand": "SolPuna Energía (ficticio)",
+          "product": "Paneles solares plegables para puestos rurales sin red eléctrica."
+        }
+      ]
     },
     {
       "id": "vz-sector-c",
@@ -44,7 +64,17 @@
       "x": 900,
       "y": 210,
       "width": 90,
-      "height": 180
+      "height": 180,
+      "highlights": [
+        {
+          "brand": "PagoNOA (ficticio)",
+          "product": "Terminal de cobro con QR que funciona sin conexión en la feria."
+        },
+        {
+          "brand": "LogiJuy (ficticio)",
+          "product": "App de logística y despacho para PyMEs exportadoras del norte."
+        }
+      ]
     },
     {
       "id": "vz-estacionamiento",
@@ -66,7 +96,17 @@
       "x": 150,
       "y": 380,
       "width": 240,
-      "height": 130
+      "height": 130,
+      "highlights": [
+        {
+          "brand": "Quinoa Real (ficticio)",
+          "product": "Línea de snacks y harinas a base de quinoa y granos andinos."
+        },
+        {
+          "brand": "AgroDron (ficticio)",
+          "product": "Drones para fumigación y monitoreo de cultivos de altura."
+        }
+      ]
     },
     {
       "id": "vz-sector-d-centro",
@@ -77,7 +117,17 @@
       "x": 410,
       "y": 400,
       "width": 430,
-      "height": 90
+      "height": 90,
+      "highlights": [
+        {
+          "brand": "Rutas del Sol (ficticio)",
+          "product": "Recorridos 360° de la Quebrada de Humahuaca en realidad virtual."
+        },
+        {
+          "brand": "Puna Trek (ficticio)",
+          "product": "Circuitos de turismo aventura por las Salinas Grandes."
+        }
+      ]
     },
     {
       "id": "vz-sector-d-sur",
@@ -88,7 +138,17 @@
       "x": 280,
       "y": 520,
       "width": 560,
-      "height": 90
+      "height": 90,
+      "highlights": [
+        {
+          "brand": "Telar Andino (ficticio)",
+          "product": "Textiles en fibra de llama teñidos con tinturas naturales."
+        },
+        {
+          "brand": "Barro Norteño (ficticio)",
+          "product": "Cerámica utilitaria inspirada en motivos precolombinos."
+        }
+      ]
     },
     {
       "id": "vz-e1",
@@ -132,7 +192,17 @@
       "x": 360,
       "y": 690,
       "width": 380,
-      "height": 120
+      "height": 120,
+      "highlights": [
+        {
+          "brand": "Sabores de Altura (ficticio)",
+          "product": "Tacos de llama y empanadas de quinoa recién horneadas."
+        },
+        {
+          "brand": "Café Yungas (ficticio)",
+          "product": "Café de especialidad cosechado en las Yungas jujeñas."
+        }
+      ]
     },
     {
       "id": "vz-acceso",

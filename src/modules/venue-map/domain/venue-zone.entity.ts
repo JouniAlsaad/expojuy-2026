@@ -7,6 +7,11 @@ export interface ZoneGeometry {
   height: number;
 }
 
+export interface ZoneHighlight {
+  brand: string;
+  product: string;
+}
+
 export interface VenueZoneProps {
   id: string;
   name: string;
@@ -14,6 +19,7 @@ export interface VenueZoneProps {
   category: string | null;
   description: string;
   geometry: ZoneGeometry;
+  highlights: ZoneHighlight[];
 }
 
 export class VenueZone {
@@ -45,5 +51,9 @@ export class VenueZone {
 
   get geometry(): ZoneGeometry {
     return this.props.geometry;
+  }
+
+  get highlights(): ZoneHighlight[] {
+    return this.props.highlights;
   }
 }
