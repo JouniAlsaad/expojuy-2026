@@ -419,8 +419,14 @@
     "followUs": "Seguinos",
     "contactTitle": "Contacto",
     "address": "Ciudad Cultural, San Salvador de Jujuy",
+    "organizer": "Organiza",
+    "organizerName": "Cámara de Comercio Exterior de Jujuy",
     "copyright": "© {year} Cámara de Comercio Exterior de Jujuy. Todos los derechos reservados.",
-    "credit": "Propuesta desarrollada para el Desafío Digital ExpoJuy 2026."
+    "credit": "Propuesta desarrollada para el Desafío Digital ExpoJuy 2026.",
+    "builtBy": "Sitio desarrollado por",
+    "studioName": "Sintaxia",
+    "studioTagline": "Creando soluciones a medida",
+    "studioCopyright": "© {year} · Todos los derechos reservados"
   },
   "notFound": {
     "title": "Esta página no existe en ExpoJuy 2026",

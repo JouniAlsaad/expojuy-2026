@@ -13,8 +13,8 @@ export async function SiteFooter() {
 
   return (
     <footer className="bg-secondary text-neutral-200">
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 md:grid-cols-2 md:px-8 lg:grid-cols-3">
-        <div className="space-y-4 md:col-span-2 lg:col-span-1">
+      <div className="mx-auto grid max-w-8xl gap-10 px-4 py-14 md:grid-cols-2 md:px-8 lg:grid-cols-4">
+        <div className="space-y-4">
           <Image
             src="/brand/expojuy-logo.svg"
             alt="ExpoJuy 2026 — Feria multisectorial del NOA"
@@ -38,6 +38,20 @@ export async function SiteFooter() {
               </a>
             ))}
           </div>
+        </div>
+
+        <div className="flex flex-col items-center gap-4 text-center">
+          <span className="font-semibold text-neutral-50/60 text-xs uppercase tracking-widest">
+            {t("organizer")}
+          </span>
+          <Image
+            src="/brand/camara-comercio-exterior-jujuy.png"
+            alt={t("organizerName")}
+            width={1077}
+            height={1008}
+            unoptimized
+            className="h-24 w-auto opacity-80 brightness-0 invert"
+          />
         </div>
 
         <nav className="space-y-3">
@@ -97,7 +111,7 @@ export async function SiteFooter() {
       </div>
 
       <div className="border-neutral-50/15 border-t">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 md:flex-row md:items-center md:justify-between md:px-8">
+        <div className="mx-auto flex max-w-8xl flex-col gap-2 px-4 py-6 md:flex-row md:items-center md:justify-between md:px-8">
           <p className="text-neutral-200 text-xs">{t("copyright", { year })}</p>
           <p className="text-neutral-200 text-xs">{t("credit")}</p>
         </div>

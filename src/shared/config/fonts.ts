@@ -1,4 +1,19 @@
+import { Cormorant_Garamond, Jost } from "next/font/google";
 import localFont from "next/font/local";
+
+export const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: "300",
+  display: "swap",
+  variable: "--font-cormorant",
+});
+
+export const jost = Jost({
+  subsets: ["latin"],
+  weight: "300",
+  display: "swap",
+  variable: "--font-jost",
+});
 
 export const ambit = localFont({
   src: [
