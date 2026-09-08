@@ -7,8 +7,8 @@
       "day": "2026-08-14",
       "startTime": "10:00",
       "endTime": "11:00",
-      "title": "Apertura oficial ExpoJuy 2026 (demo)",
-      "speaker": "Comité Organizador (ficticio)",
+      "title": "Apertura oficial ExpoJuy 2026",
+      "speaker": "Comité Organizador",
       "stage": "Auditorio Central",
       "track": "institucional"
     },
@@ -17,8 +17,8 @@
       "day": "2026-08-14",
       "startTime": "11:30",
       "endTime": "12:30",
-      "title": "El litio como motor del NOA (demo)",
-      "speaker": "Panel de especialistas (ficticio)",
+      "title": "El litio como motor del NOA",
+      "speaker": "Panel de especialistas",
       "stage": "Sala Puna",
       "track": "mineria-energia"
     },
@@ -27,8 +27,8 @@
       "day": "2026-08-14",
       "startTime": "15:00",
       "endTime": "16:00",
-      "title": "Turismo sostenible en la Quebrada (demo)",
-      "speaker": "Mesa de turismo (ficticio)",
+      "title": "Turismo sostenible en la Quebrada",
+      "speaker": "Mesa de turismo",
       "stage": "Sala Quebrada",
       "track": "turismo"
     },
@@ -37,8 +37,8 @@
       "day": "2026-08-15",
       "startTime": "10:30",
       "endTime": "11:30",
-      "title": "Transformación digital para pymes (demo)",
-      "speaker": "Comunidad tech local (ficticio)",
+      "title": "Transformación digital para pymes",
+      "speaker": "Comunidad tech local",
       "stage": "Sala Innovación",
       "track": "tecnologia"
     },
@@ -47,8 +47,8 @@
       "day": "2026-08-15",
       "startTime": "12:00",
       "endTime": "13:00",
-      "title": "Ronda de negocios agroindustrial (demo)",
-      "speaker": "Matchmaking B2B (ficticio)",
+      "title": "Ronda de negocios agroindustrial",
+      "speaker": "Matchmaking B2B",
       "stage": "Salón de Negocios",
       "track": "agroindustria"
     },
@@ -57,8 +57,8 @@
       "day": "2026-08-15",
       "startTime": "17:00",
       "endTime": "18:30",
-      "title": "Cierre y show de artesanías andinas (demo)",
-      "speaker": "Artistas regionales (ficticio)",
+      "title": "Cierre y show de artesanías andinas",
+      "speaker": "Artistas regionales",
       "stage": "Auditorio Central",
       "track": "artesanias"
     }

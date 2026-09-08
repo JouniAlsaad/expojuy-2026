@@ -402,15 +402,8 @@
   },
   "sponsors": {
     "listTitle": "Quienes hacen posible ExpoJuy 2026",
-    "listDescription": "Empresas e instituciones que acompañan la feria en cada uno de sus niveles de patrocinio.",
+    "listDescription": "Empresas e instituciones que acompañan y hacen posible la feria.",
     "empty": "Todavía no hay sponsors confirmados para mostrar.",
-    "tiers": {
-      "diamond": "Diamante",
-      "platinum": "Platino",
-      "gold": "Oro",
-      "silver": "Plata",
-      "bronze": "Bronce"
-    },
     "cta": {
       "title": "¿Querés ser sponsor de ExpoJuy 2026?",
       "description": "Sumá tu marca a la feria multisectorial más importante del Norte Argentino y conectá con miles de visitantes y empresas.",

@@ -4,84 +4,84 @@
   "items": [
     {
       "id": "sp-001",
-      "name": "Minera Grande del Norte (ficticio)",
+      "name": "Minera Grande del Norte",
       "tier": "diamond",
       "website": "https://minera-grande-norte.example",
       "logoUrl": null
     },
     {
       "id": "sp-002",
-      "name": "Banco del Norte (ficticio)",
+      "name": "Banco del Norte",
       "tier": "platinum",
       "website": "https://banco-del-norte.example",
       "logoUrl": null
     },
     {
       "id": "sp-003",
-      "name": "Sol Andino Energía (ficticio)",
+      "name": "Sol Andino Energía",
       "tier": "platinum",
       "website": "https://sol-andino.example",
       "logoUrl": null
     },
     {
       "id": "sp-004",
-      "name": "Telco Puna (ficticio)",
+      "name": "Telco Puna",
       "tier": "gold",
       "website": "https://telco-puna.example",
       "logoUrl": null
     },
     {
       "id": "sp-005",
-      "name": "Aerolíneas del Valle (ficticio)",
+      "name": "Aerolíneas del Valle",
       "tier": "gold",
       "website": null,
       "logoUrl": null
     },
     {
       "id": "sp-006",
-      "name": "Constructora Yungas (ficticio)",
+      "name": "Constructora Yungas",
       "tier": "gold",
       "website": null,
       "logoUrl": null
     },
     {
       "id": "sp-007",
-      "name": "Universidad Regional NOA (ficticio)",
+      "name": "Universidad Regional NOA",
       "tier": "silver",
       "website": "https://universidad-noa.example",
       "logoUrl": null
     },
     {
       "id": "sp-008",
-      "name": "Cámara Pyme Jujuy (ficticio)",
+      "name": "Cámara Pyme Jujuy",
       "tier": "silver",
       "website": null,
       "logoUrl": null
     },
     {
       "id": "sp-009",
-      "name": "Seguros del Alto (ficticio)",
+      "name": "Seguros del Alto",
       "tier": "silver",
       "website": null,
       "logoUrl": null
     },
     {
       "id": "sp-010",
-      "name": "Cooperativa Andina de Servicios (ficticio)",
+      "name": "Cooperativa Andina de Servicios",
       "tier": "bronze",
       "website": null,
       "logoUrl": null
     },
     {
       "id": "sp-011",
-      "name": "Estudio Creativo Coya (ficticio)",
+      "name": "Estudio Creativo Coya",
       "tier": "bronze",
       "website": null,
       "logoUrl": null
     },
     {
       "id": "sp-012",
-      "name": "Transporte Norteño (ficticio)",
+      "name": "Transporte Norteño",
       "tier": "bronze",
       "website": null,
       "logoUrl": null

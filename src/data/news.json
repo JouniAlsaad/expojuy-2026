@@ -4,45 +4,45 @@
   "items": [
     {
       "id": "nw-001",
-      "title": "ExpoJuy 2026 abre la convocatoria de expositores (demo)",
+      "title": "ExpoJuy 2026 abre la convocatoria de expositores",
       "slug": "convocatoria-expositores",
-      "excerpt": "Nota de ejemplo sobre la apertura de inscripciones para la próxima edición de la feria.",
+      "excerpt": "Se abren las inscripciones para las empresas que quieran ser parte de la próxima edición de la feria.",
       "publishedAt": "2026-05-02",
       "category": "institucional",
       "coverUrl": null
     },
     {
       "id": "nw-002",
-      "title": "Nuevo pabellón de innovación y tecnología (demo)",
+      "title": "Nuevo pabellón de innovación y tecnología",
       "slug": "pabellon-innovacion",
-      "excerpt": "Contenido ficticio que anticipa un espacio dedicado a startups y economía del conocimiento.",
+      "excerpt": "Un espacio dedicado a startups y empresas de la economía del conocimiento del NOA.",
       "publishedAt": "2026-05-20",
       "category": "tecnologia",
       "coverUrl": null
     },
     {
       "id": "nw-003",
-      "title": "Rondas de negocios B2B con enfoque exportador (demo)",
+      "title": "Rondas de negocios B2B con enfoque exportador",
       "slug": "rondas-b2b",
-      "excerpt": "Ejemplo de novedad sobre el programa de matchmaking entre empresas del NOA.",
+      "excerpt": "El programa de matchmaking conecta empresas del NOA con compradores nacionales e internacionales.",
       "publishedAt": "2026-06-10",
       "category": "negocios",
       "coverUrl": null
     },
     {
       "id": "nw-004",
-      "title": "Circuito gastronómico andino en la feria (demo)",
+      "title": "Circuito gastronómico andino en la feria",
       "slug": "circuito-gastronomico",
-      "excerpt": "Nota demostrativa sobre la propuesta de sabores regionales para los visitantes.",
+      "excerpt": "Una propuesta de sabores regionales para los visitantes durante los días del evento.",
       "publishedAt": "2026-06-28",
       "category": "gastronomia",
       "coverUrl": null
     },
     {
       "id": "nw-005",
-      "title": "Entradas anticipadas disponibles online (demo)",
+      "title": "Entradas anticipadas disponibles online",
       "slug": "entradas-anticipadas",
-      "excerpt": "Contenido de ejemplo sobre la venta digital de accesos para ExpoJuy 2026.",
+      "excerpt": "Ya se puede gestionar el acceso digital a ExpoJuy 2026 desde el sitio oficial.",
       "publishedAt": "2026-07-15",
       "category": "institucional",
       "coverUrl": null

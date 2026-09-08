@@ -25,6 +25,7 @@ export default async function SponsorsPage() {
   const repository = createSponsorRepository();
   const useCase = new GetSponsorsByTierUseCase(repository);
   const groups = await useCase.execute();
+  const sponsors = groups.flatMap((group) => group.sponsors);
 
   return (
     <PagePlaceholder title={page("title")} description={page("description")}>
@@ -34,7 +35,7 @@ export default async function SponsorsPage() {
           <p className="mt-2 text-muted-foreground">{list("listDescription")}</p>
         </div>
 
-        <SponsorsBoard groups={groups} />
+        <SponsorsBoard sponsors={sponsors} />
 
         <div className="flex flex-col gap-4 rounded-lg border border-border bg-muted/40 p-8 md:flex-row md:items-center md:justify-between">
           <div className="max-w-xl">
