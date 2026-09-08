@@ -52,7 +52,10 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           {themeScript}
         </Script>
       </head>
-      <body className="flex min-h-dvh flex-col bg-background text-foreground antialiased">
+      <body
+        suppressHydrationWarning
+        className="flex min-h-dvh flex-col bg-background text-foreground antialiased"
+      >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
             <SmoothScrollProvider>
