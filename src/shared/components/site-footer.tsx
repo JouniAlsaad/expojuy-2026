@@ -12,7 +12,7 @@ export async function SiteFooter() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border bg-muted/40">
+    <footer className="bg-secondary text-neutral-200">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 md:grid-cols-2 md:px-8 lg:grid-cols-3">
         <div className="space-y-4 md:col-span-2 lg:col-span-1">
           <Image
@@ -21,17 +21,9 @@ export async function SiteFooter() {
             width={376}
             height={243}
             unoptimized
-            className="h-16 w-auto dark:hidden"
+            className="h-16 w-auto brightness-0 invert"
           />
-          <Image
-            src="/brand/expojuy-logo-dark.svg"
-            alt="ExpoJuy 2026 — Feria multisectorial del NOA"
-            width={376}
-            height={243}
-            unoptimized
-            className="hidden h-16 w-auto dark:block"
-          />
-          <p className="max-w-xs text-sm text-muted-foreground">{t("about")}</p>
+          <p className="max-w-xs text-neutral-200 text-sm">{t("about")}</p>
           <div className="flex items-center gap-3">
             {socialLinks.map((social) => (
               <a
@@ -40,7 +32,7 @@ export async function SiteFooter() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={a11y(social.labelKey)}
-                className="text-muted-foreground transition-colors hover:text-brand-text"
+                className="text-neutral-200 transition-colors hover:text-primary"
               >
                 <SocialIcon platform={social.platform} className="size-5" />
               </a>
@@ -49,13 +41,13 @@ export async function SiteFooter() {
         </div>
 
         <nav className="space-y-3">
-          <h2 className="text-sm font-semibold text-foreground">{t("sections")}</h2>
+          <h2 className="font-semibold text-neutral-50 text-sm">{t("sections")}</h2>
           <ul className="grid grid-cols-2 gap-x-8 gap-y-2">
             {footerNav.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  className="text-neutral-200 text-sm transition-colors hover:text-neutral-50"
                 >
                   {nav(link.labelKey)}
                 </Link>
@@ -65,12 +57,12 @@ export async function SiteFooter() {
         </nav>
 
         <div className="space-y-3">
-          <h2 className="text-sm font-semibold text-foreground">{t("contactTitle")}</h2>
-          <ul className="space-y-2 text-sm text-muted-foreground">
+          <h2 className="font-semibold text-neutral-50 text-sm">{t("contactTitle")}</h2>
+          <ul className="space-y-2 text-neutral-200 text-sm">
             <li>
               <a
                 href={`mailto:${siteContact.email}`}
-                className="inline-flex items-center gap-2 transition-colors hover:text-foreground"
+                className="inline-flex items-center gap-2 transition-colors hover:text-neutral-50"
               >
                 <Mail className="size-4 shrink-0" aria-hidden />
                 {siteContact.email}
@@ -79,7 +71,7 @@ export async function SiteFooter() {
             <li>
               <a
                 href={`tel:${siteContact.phoneHref}`}
-                className="inline-flex items-center gap-2 transition-colors hover:text-foreground"
+                className="inline-flex items-center gap-2 transition-colors hover:text-neutral-50"
               >
                 <Phone className="size-4 shrink-0" aria-hidden />
                 {siteContact.phoneDisplay}
@@ -90,7 +82,7 @@ export async function SiteFooter() {
                 href={`https://wa.me/${siteContact.whatsappHref}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 transition-colors hover:text-foreground"
+                className="inline-flex items-center gap-2 transition-colors hover:text-neutral-50"
               >
                 <MessageCircle className="size-4 shrink-0" aria-hidden />
                 {siteContact.whatsappDisplay}
@@ -104,10 +96,10 @@ export async function SiteFooter() {
         </div>
       </div>
 
-      <div className="border-t border-border">
+      <div className="border-neutral-50/15 border-t">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 md:flex-row md:items-center md:justify-between md:px-8">
-          <p className="text-xs text-muted-foreground">{t("copyright", { year })}</p>
-          <p className="text-xs text-muted-foreground">{t("credit")}</p>
+          <p className="text-neutral-200 text-xs">{t("copyright", { year })}</p>
+          <p className="text-neutral-200 text-xs">{t("credit")}</p>
         </div>
       </div>
     </footer>
