@@ -1,24 +1,31 @@
 :root {
+  --brand-cyan: #00bed2;
+  --brand-violeta-oscuro: #74459b;
+  --brand-violeta-medio: #746ab0;
+  --brand-lavanda: #bca5cf;
+  --brand-charcoal: #403f41;
+  --brand-gris: #bbbdc0;
+
   --background: #f6f7f8;
-  --foreground: #403f41;
+  --foreground: var(--brand-charcoal);
 
   --card: #ffffff;
-  --card-foreground: #403f41;
+  --card-foreground: var(--brand-charcoal);
 
   --popover: #ffffff;
-  --popover-foreground: #403f41;
+  --popover-foreground: var(--brand-charcoal);
 
-  --primary: #00bed2;
-  --primary-foreground: #403f41;
+  --primary: var(--brand-cyan);
+  --primary-foreground: var(--brand-charcoal);
 
-  --secondary: #74459b;
+  --secondary: var(--brand-violeta-oscuro);
   --secondary-foreground: #ffffff;
 
-  --accent: #746ab0;
+  --accent: var(--brand-violeta-medio);
   --accent-foreground: #ffffff;
 
-  --accent-soft: #bca5cf;
-  --accent-soft-foreground: #403f41;
+  --accent-soft: var(--brand-lavanda);
+  --accent-soft-foreground: var(--brand-charcoal);
 
   --muted: #ececef;
   --muted-foreground: #5c5d5f;
@@ -34,7 +41,15 @@
   --success: #16a34a;
   --warning: #b45309;
   --error: #dc2626;
-  --info: #74459b;
+  --info: var(--brand-violeta-oscuro);
+
+  --cat-mineria-energia: #f2e3c4;
+  --cat-agroindustria: #d7e8cf;
+  --cat-turismo: #c7e9ee;
+  --cat-tecnologia: #dcd8ef;
+  --cat-artesanias: #f0d9cf;
+  --cat-gastronomia: #f3d3d0;
+  --cat-servicios: #dcdde3;
 
   --radius: 0.75rem;
 }
@@ -49,17 +64,17 @@
   --popover: #1e1e20;
   --popover-foreground: #f6f7f8;
 
-  --primary: #00bed2;
-  --primary-foreground: #403f41;
+  --primary: var(--brand-cyan);
+  --primary-foreground: var(--brand-charcoal);
 
-  --secondary: #74459b;
+  --secondary: var(--brand-violeta-oscuro);
   --secondary-foreground: #ffffff;
 
-  --accent: #746ab0;
+  --accent: var(--brand-violeta-medio);
   --accent-foreground: #ffffff;
 
-  --accent-soft: #bca5cf;
-  --accent-soft-foreground: #403f41;
+  --accent-soft: var(--brand-lavanda);
+  --accent-soft-foreground: var(--brand-charcoal);
 
   --muted: #262628;
   --muted-foreground: #a9abae;
@@ -75,14 +90,22 @@
   --success: #4ade80;
   --warning: #fbbf24;
   --error: #dc2626;
-  --info: #bca5cf;
+  --info: var(--brand-lavanda);
+
+  --cat-mineria-energia: #5c4a22;
+  --cat-agroindustria: #33502c;
+  --cat-turismo: #1f5560;
+  --cat-tecnologia: #413a63;
+  --cat-artesanias: #5e3b2c;
+  --cat-gastronomia: #5e2f2c;
+  --cat-servicios: #3a3a44;
 }
 
 @theme {
   --color-neutral-50: #f6f7f8;
   --color-neutral-100: #ececef;
   --color-neutral-200: #dcdddf;
-  --color-neutral-300: #bcbdc0;
+  --color-neutral-300: var(--brand-gris);
   --color-neutral-400: #96989b;
   --color-neutral-500: #737579;
   --color-neutral-600: #5c5d5f;
@@ -103,6 +126,13 @@
 }
 
 @theme inline {
+  --color-brand-cyan: var(--brand-cyan);
+  --color-brand-violeta-oscuro: var(--brand-violeta-oscuro);
+  --color-brand-violeta-medio: var(--brand-violeta-medio);
+  --color-brand-lavanda: var(--brand-lavanda);
+  --color-brand-charcoal: var(--brand-charcoal);
+  --color-brand-gris: var(--brand-gris);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
@@ -139,6 +169,14 @@
   --color-warning: var(--warning);
   --color-error: var(--error);
   --color-info: var(--info);
+
+  --color-cat-mineria-energia: var(--cat-mineria-energia);
+  --color-cat-agroindustria: var(--cat-agroindustria);
+  --color-cat-turismo: var(--cat-turismo);
+  --color-cat-tecnologia: var(--cat-tecnologia);
+  --color-cat-artesanias: var(--cat-artesanias);
+  --color-cat-gastronomia: var(--cat-gastronomia);
+  --color-cat-servicios: var(--cat-servicios);
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
