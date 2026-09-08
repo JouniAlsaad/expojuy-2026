@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import Script from "next/script";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
@@ -28,13 +28,6 @@ export const metadata: Metadata = {
   },
 };
 
-export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#00bed2" },
-    { media: "(prefers-color-scheme: dark)", color: "#403f41" },
-  ],
-};
-
 const themeScript = `(function(){try{var t=localStorage.getItem('expojuy-theme');if(t==='dark'){document.documentElement.classList.add('dark');}}catch(e){}})();`;
 
 interface RootLayoutProps {
@@ -52,7 +45,10 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           {themeScript}
         </Script>
       </head>
-      <body className="flex min-h-dvh flex-col bg-background text-foreground antialiased">
+      <body
+        suppressHydrationWarning
+        className="flex min-h-dvh flex-col bg-background text-foreground antialiased"
+      >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
             <SmoothScrollProvider>

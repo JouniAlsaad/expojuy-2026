@@ -282,6 +282,11 @@
     "zonesLabel": "Seleccionar una zona del predio",
     "allCategories": "Todos los rubros",
     "selectPrompt": "Seleccioná una zona del plano para ver su información.",
+    "legendTitle": "Referencias",
+    "legendCategoriesTitle": "Rubros",
+    "legendKindsTitle": "Otras zonas",
+    "legendPabellon": "Pabellón",
+    "legendCommon": "Servicios, accesos y espacios comunes",
     "kinds": {
       "pabellon": "Pabellón",
       "servicio": "Servicio",
