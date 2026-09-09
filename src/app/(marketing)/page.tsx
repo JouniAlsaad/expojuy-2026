@@ -1,4 +1,5 @@
 import { createEventRepository, GetEventInfoUseCase } from "@/modules/about";
+import { AssistantSection } from "@/modules/assistant";
 import {
   AboutSection,
   ActivitiesSection,
@@ -7,7 +8,6 @@ import {
   GallerySection,
   HeroSection,
   PhasesSection,
-  RouteAiBand,
   SponsorsPreview,
   ValuesSection,
 } from "@/modules/home";
@@ -21,7 +21,7 @@ export default async function HomePage() {
       <AboutSection event={event} />
       <CountdownSection event={event} />
       <PhasesSection />
-      <RouteAiBand />
+      <AssistantSection />
       <ValuesSection />
       <GallerySection />
       <ActivitiesSection />

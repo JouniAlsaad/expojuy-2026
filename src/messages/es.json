@@ -178,6 +178,17 @@
       }
     }
   },
+  "assistant": {
+    "badge": "Asistente inteligente",
+    "title": "Preguntale a ExpoJuy.",
+    "subtitle": "Consultá horarios, actividades, ubicación, entradas y todo lo que necesites saber antes o durante el evento.",
+    "inputPlaceholder": "Escribí tu pregunta...",
+    "inputLabel": "Escribí tu pregunta para el asistente de ExpoJuy",
+    "sendLabel": "Enviar pregunta",
+    "typingLabel": "El asistente está escribiendo",
+    "suggestionsLabel": "Preguntas sugeridas",
+    "conversationLabel": "Conversación con el asistente de ExpoJuy"
+  },
   "pages": {
     "exhibitors": {
       "title": "Expositores",
