@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import type { ReactNode } from "react";
 import { fadeInUp, viewportOnce } from "@/design-system/animations";
 
@@ -10,6 +10,12 @@ interface RevealProps {
 }
 
 export function Reveal({ children, className }: RevealProps) {
+  const prefersReducedMotion = useReducedMotion();
+
+  if (prefersReducedMotion) {
+    return <div className={className}>{children}</div>;
+  }
+
   return (
     <motion.div
       variants={fadeInUp}
