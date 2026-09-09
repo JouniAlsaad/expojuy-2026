@@ -1,5 +1,6 @@
 "use client";
 
+import { useReducedMotion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
@@ -27,6 +28,9 @@ export function GallerySection() {
   const [active, setActive] = useState(0);
   const thumbRefs = useRef<Array<HTMLLIElement | null>>([]);
   const thumbListRef = useRef<HTMLUListElement | null>(null);
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const [inView, setInView] = useState(false);
+  const prefersReducedMotion = useReducedMotion();
 
   const goTo = useCallback((index: number) => {
     setActive(((index % images.length) + images.length) % images.length);
@@ -54,11 +58,26 @@ export function GallerySection() {
   );
 
   useEffect(() => {
+    const node = sectionRef.current;
+    if (!node) {
+      return;
+    }
+    const observer = new IntersectionObserver(([entry]) => setInView(entry.isIntersecting), {
+      threshold: 0.2,
+    });
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!inView || prefersReducedMotion) {
+      return;
+    }
     const interval = window.setInterval(() => {
       setActive((current) => (current + 1) % images.length);
     }, AUTOPLAY_MS);
     return () => window.clearInterval(interval);
-  }, [active]);
+  }, [inView, prefersReducedMotion]);
 
   useEffect(() => {
     const list = thumbListRef.current;
@@ -67,11 +86,14 @@ export function GallerySection() {
     const listRect = list.getBoundingClientRect();
     const thumbRect = thumb.getBoundingClientRect();
     const delta = thumbRect.left - listRect.left - (listRect.width - thumbRect.width) / 2;
-    list.scrollTo({ left: list.scrollLeft + delta, behavior: "smooth" });
-  }, [active]);
+    list.scrollTo({
+      left: list.scrollLeft + delta,
+      behavior: prefersReducedMotion ? "auto" : "smooth",
+    });
+  }, [active, prefersReducedMotion]);
 
   return (
-    <section className="mx-auto w-full max-w-6xl px-4 pb-20 md:px-8">
+    <section ref={sectionRef} className="mx-auto w-full max-w-6xl px-4 pb-20 md:px-8">
       <Reveal className="mb-10 max-w-2xl">
         <h2 className="text-3xl text-foreground md:text-4xl">{t("title")}</h2>
         <p className="mt-3 text-muted-foreground">{t("subtitle")}</p>
@@ -109,7 +131,7 @@ export function GallerySection() {
             type="button"
             onClick={goPrev}
             aria-label={t("prevLabel")}
-            className="-translate-y-1/2 absolute top-1/2 left-3 z-10 inline-flex size-11 items-center justify-center rounded-full border border-border bg-background/70 text-foreground shadow-soft backdrop-blur transition hover:bg-background hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+            className="-translate-y-1/2 absolute top-1/2 left-3 z-10 inline-flex size-11 items-center justify-center rounded-full border border-border bg-background/90 text-foreground shadow-soft transition md:bg-background/70 md:backdrop-blur hover:bg-background hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
             <ChevronLeft className="size-6" aria-hidden />
           </button>
@@ -117,7 +139,7 @@ export function GallerySection() {
             type="button"
             onClick={goNext}
             aria-label={t("nextLabel")}
-            className="-translate-y-1/2 absolute top-1/2 right-3 z-10 inline-flex size-11 items-center justify-center rounded-full border border-border bg-background/70 text-foreground shadow-soft backdrop-blur transition hover:bg-background hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+            className="-translate-y-1/2 absolute top-1/2 right-3 z-10 inline-flex size-11 items-center justify-center rounded-full border border-border bg-background/90 text-foreground shadow-soft transition md:bg-background/70 md:backdrop-blur hover:bg-background hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
             <ChevronRight className="size-6" aria-hidden />
           </button>
