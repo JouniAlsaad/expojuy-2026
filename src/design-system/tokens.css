@@ -12,6 +12,8 @@
   --card: #ffffff;
   --card-foreground: var(--brand-charcoal);
 
+  --surface-logo: #ffffff;
+
   --popover: #ffffff;
   --popover-foreground: var(--brand-charcoal);
 
@@ -53,8 +55,8 @@
 
   --radius: 0.75rem;
 
-  --width-showcase: 95vw;
-  --width-closing: 98vw;
+  --width-showcase: calc(100% - 2rem);
+  --width-closing: calc(100% - 2rem);
 }
 
 .dark {
@@ -63,6 +65,8 @@
 
   --card: #1e1e20;
   --card-foreground: #f6f7f8;
+
+  --surface-logo: #ffffff;
 
   --popover: #1e1e20;
   --popover-foreground: #f6f7f8;
@@ -106,6 +110,7 @@
 
 @media (min-width: 768px) {
   :root {
+    --width-showcase: 95vw;
     --width-closing: 80vw;
   }
 }
@@ -167,6 +172,8 @@
 
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
+
+  --color-surface-logo: var(--surface-logo);
 
   --color-popover: var(--popover);
   --color-popover-foreground: var(--popover-foreground);
