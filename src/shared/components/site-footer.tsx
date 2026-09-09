@@ -13,8 +13,8 @@ export async function SiteFooter() {
 
   return (
     <footer className="bg-secondary text-neutral-200">
-      <div className="mx-auto grid max-w-8xl gap-10 px-4 py-14 md:grid-cols-2 md:px-8 lg:grid-cols-4">
-        <div className="space-y-4">
+      <div className="mx-auto grid max-w-8xl gap-10 px-4 pt-8 pb-14 md:grid-cols-2 md:px-8 lg:grid-cols-4">
+        <div className="flex flex-col items-center gap-4 text-center">
           <Image
             src="/brand/expojuy-logo.svg"
             alt="ExpoJuy 2026 — Feria multisectorial del NOA"
@@ -54,9 +54,9 @@ export async function SiteFooter() {
           />
         </div>
 
-        <nav className="space-y-3">
+        <nav className="flex flex-col items-center gap-3 text-center">
           <h2 className="font-semibold text-neutral-50 text-sm">{t("sections")}</h2>
-          <ul className="grid grid-cols-2 gap-x-8 gap-y-2">
+          <ul className="grid grid-cols-2 gap-x-8 gap-y-2 text-center">
             {footerNav.map((link) => (
               <li key={link.href}>
                 <Link
@@ -70,9 +70,9 @@ export async function SiteFooter() {
           </ul>
         </nav>
 
-        <div className="space-y-3">
+        <div className="flex flex-col items-center gap-3 text-center">
           <h2 className="font-semibold text-neutral-50 text-sm">{t("contactTitle")}</h2>
-          <ul className="space-y-2 text-neutral-200 text-sm">
+          <ul className="flex flex-col items-center space-y-2 text-neutral-200 text-sm">
             <li>
               <a
                 href={`mailto:${siteContact.email}`}
