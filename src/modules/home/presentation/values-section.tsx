@@ -98,7 +98,7 @@ export async function ValuesSection() {
     <Reveal
       key={key}
       className={cn(
-        "group relative flex h-full flex-col gap-4 overflow-hidden rounded-xl border border-border bg-card p-8 shadow-soft transition duration-300 ease-brand hover:-translate-y-1",
+        "group relative flex h-full flex-col gap-4 overflow-hidden rounded-xl border border-border bg-card p-6 shadow-soft transition duration-300 ease-brand hover:-translate-y-1 md:p-8",
         hoverShadow,
       )}
     >
@@ -106,17 +106,17 @@ export async function ValuesSection() {
         aria-hidden
         strokeWidth={1}
         className={cn(
-          "-top-6 -right-6 pointer-events-none absolute size-40 opacity-40 transition duration-300 ease-brand group-hover:scale-110",
+          "-top-6 -right-6 pointer-events-none absolute size-32 opacity-40 transition duration-300 ease-brand group-hover:scale-110 md:size-40",
           watermark,
         )}
       />
       <span
         className={cn(
-          "relative inline-flex size-20 items-center justify-center rounded-2xl text-foreground shadow-soft transition duration-300 ease-brand group-hover:scale-105",
+          "relative inline-flex size-16 items-center justify-center rounded-2xl text-foreground shadow-soft transition duration-300 ease-brand group-hover:scale-105 md:size-20",
           badge,
         )}
       >
-        <Icon className="size-10" aria-hidden strokeWidth={1.5} />
+        <Icon className="size-8 md:size-10" aria-hidden strokeWidth={1.5} />
       </span>
       <h3 className="relative text-card-foreground text-2xl">
         {t(`values.${path}.${key}.title`)}
