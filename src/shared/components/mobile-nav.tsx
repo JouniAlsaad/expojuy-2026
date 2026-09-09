@@ -60,6 +60,14 @@ export function MobileNav() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
           >
+            <button
+              type="button"
+              onClick={close}
+              aria-label={labels("closeMenu")}
+              className="absolute top-4 right-4 inline-flex size-11 items-center justify-center rounded-md text-foreground transition-colors hover:bg-muted"
+            >
+              <MorphIcon icon={closeIcon} size={24} strokeWidth={2} spring="snappy" />
+            </button>
             <motion.nav
               variants={staggerContainer}
               initial="hidden"
