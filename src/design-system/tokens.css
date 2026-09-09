@@ -52,6 +52,9 @@
   --cat-servicios: #dcdde3;
 
   --radius: 0.75rem;
+
+  --width-showcase: 95vw;
+  --width-closing: 98vw;
 }
 
 .dark {
@@ -101,6 +104,12 @@
   --cat-servicios: #3a3a44;
 }
 
+@media (min-width: 768px) {
+  :root {
+    --width-closing: 80vw;
+  }
+}
+
 @theme {
   --color-neutral-50: #f6f7f8;
   --color-neutral-100: #ececef;
@@ -123,8 +132,14 @@
 
   --container-8xl: 90rem;
 
+  --aspect-ultrawide: 21 / 9;
+
+  --text-2xs: 0.625rem;
+
   --shadow-soft: 0 1px 2px rgb(64 63 65 / 0.04), 0 2px 8px rgb(64 63 65 / 0.08);
   --shadow-elevated: 0 8px 24px rgb(64 63 65 / 0.12);
+  --shadow-violet: 0 6px 16px rgb(116 69 155 / 0.18), 0 14px 32px rgb(116 69 155 / 0.24);
+  --shadow-cyan: 0 6px 16px rgb(0 190 210 / 0.18), 0 14px 32px rgb(0 190 210 / 0.24);
   --shadow-ring: 0 0 0 3px rgb(0 190 210 / 0.35);
 
   --ease-brand: cubic-bezier(0.22, 1, 0.36, 1);

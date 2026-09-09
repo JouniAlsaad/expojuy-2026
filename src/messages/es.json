@@ -39,12 +39,15 @@
   "home": {
     "hero": {
       "eyebrow": "ExpoJuy 2026 · Feria multisectorial del NOA",
-      "title": "La feria no termina cuando cierran las puertas",
-      "subtitle": "ExpoJuy Vivo es la plataforma que acompaña la feria en sus tres tiempos: descubrir antes, vivir durante y disfrutar el legado después.",
+      "title": "El Norte se enciende.<br></br>Diez días para hacer negocios. Todo el año para conectar.",
+      "subtitle": "ExpoJuy reúne a la industria, la tecnología y la producción del NOA en una sola experiencia.",
       "ctaPrimary": "Sacá tu entrada",
       "ctaSecondary": "Ver agenda"
     },
     "countdown": {
+      "sectionEyebrow": "Cuenta regresiva",
+      "sectionTitle": "Falta cada vez menos",
+      "sectionSubtitle": "ExpoJuy 2026 abre sus puertas del {dates}. Marcá la fecha y viví los diez días que mueven al NOA.",
       "label": "Faltan para el inicio",
       "days": "Días",
       "hours": "Horas",
@@ -54,7 +57,7 @@
     },
     "about": {
       "eyebrow": "Sobre ExpoJuy 2026",
-      "title": "La feria multisectorial más importante del Norte Argentino",
+      "title": "El evento productivo más grande del NOA.",
       "description": "ExpoJuy reúne a empresas, instituciones y visitantes de toda la región en torno a la innovación, la producción y la vinculación empresarial. Una plataforma para hacer negocios, mostrar talento y proyectar el desarrollo del NOA.",
       "preliminary": "Cifras preliminares — se reemplazan por los datos oficiales de la organización.",
       "kpis": {
@@ -98,12 +101,56 @@
           "title": "Economía del Conocimiento",
           "description": "Talento y servicios basados en el conocimiento."
         }
+      },
+      "moreTitle": "Y además",
+      "moreItems": {
+        "culture": {
+          "title": "Cultura e Identidad Regional",
+          "description": "El Norte Argentino en su expresión productiva y cultural."
+        },
+        "sustainability": {
+          "title": "Sostenibilidad",
+          "description": "Producción responsable con el ambiente y las comunidades."
+        },
+        "trade": {
+          "title": "Comercio Exterior",
+          "description": "Proyección de la industria del NOA hacia mercados internacionales."
+        }
+      }
+    },
+    "gallery": {
+      "title": "Galería ExpoJuy",
+      "subtitle": "Un recorrido en imágenes por lo que se vive en la feria.",
+      "thumbnailLabel": "Ver imagen {index}",
+      "prevLabel": "Imagen anterior",
+      "nextLabel": "Imagen siguiente"
+    },
+    "activities": {
+      "title": "Actividades productivas",
+      "subtitle": "La economía que impulsa a Jujuy y a todo el NOA, presente en ExpoJuy 2026.",
+      "items": {
+        "agroindustry": {
+          "title": "Agroindustria",
+          "description": "El tabaco, el azúcar y la caña posicionan a la provincia como un polo agroindustrial del norte."
+        },
+        "mining": {
+          "title": "Minería",
+          "description": "Somos una provincia rica en minerales: litio, hierro, plata y sal a gran escala."
+        },
+        "tourism": {
+          "title": "Turismo",
+          "description": "Durante todo el año, miles de turistas nos visitan para disfrutar de nuestra naturaleza."
+        }
       }
     },
     "sponsorsPreview": {
       "eyebrow": "Sponsors",
       "title": "Acompañan a ExpoJuy 2026",
-      "cta": "Ver todos los sponsors"
+      "sponsors": {
+        "eyebrow": "Patrocinadores",
+        "title": "Sponsors",
+        "cta": "Ver todos los sponsors"
+      }
     },
     "routeCta": {
       "eyebrow": "Vivir · Con IA",
@@ -112,22 +159,22 @@
       "action": "Armar mi ruta"
     },
     "phases": {
-      "title": "Una plataforma, tres tiempos",
-      "subtitle": "No es un folleto del evento: es una experiencia continua.",
+      "title": "Empezá a vivirla desde ahora.",
+      "subtitle": "Expositores, charlas y actividades para toda la familia.",
       "discover": {
-        "title": "Descubrir",
-        "tag": "Pre-evento",
-        "description": "Expositores, agenda, entradas y novedades para planificar tu visita."
+        "title": "Explorar",
+        "tag": "Armá tu recorrido",
+        "description": "Explorá expositores, charlas y actividades. Sacá tu entrada y llegá con la agenda lista."
       },
       "live": {
-        "title": "Vivir",
-        "tag": "Durante",
-        "description": "Mapa en tiempo real, qué pasa ahora y ruta personalizada con IA."
+        "title": "Recorrer",
+        "tag": "Vivila en tiempo real",
+        "description": "Mapa interactivo, que pasa ahora en cada sector y próximas actividades - sin perderte nada."
       },
       "legacy": {
-        "title": "Legado",
-        "tag": "Post-evento",
-        "description": "Highlights, contenidos on-demand y matchmaking B2B."
+        "title": "recordar",
+        "tag": "Reviví cada momento.",
+        "description": "Fotos, videos y charlas completas disponibles todo el año, a solo un click."
       }
     }
   },
@@ -394,6 +441,10 @@
     "allTracks": "Todos los rubros",
     "dayTabsLabel": "Seleccionar día de la agenda",
     "trackFilterLabel": "Filtrar por rubro",
+    "daysLabel": "Programación por día",
+    "sessionCount": "{count, plural, =0 {Sin actividades} =1 {# actividad} other {# actividades}}",
+    "expandDay": "Ver actividades del {day}",
+    "collapseDay": "Ocultar actividades del {day}",
     "tracks": {
       "institucional": "Institucional",
       "mineria-energia": "Minería y Energía",
@@ -414,6 +465,10 @@
       "description": "Sumá tu marca a la feria multisectorial más importante del Norte Argentino y conectá con miles de visitantes y empresas.",
       "action": "Quiero ser sponsor"
     }
+  },
+  "closing": {
+    "watermarkName": "Sintaxia",
+    "watermarkLegend": "Imagen generada con IA"
   },
   "footer": {
     "about": "La feria multisectorial más importante del Norte Argentino.",

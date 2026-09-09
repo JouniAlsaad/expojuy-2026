@@ -9,6 +9,7 @@ type CountdownTone = "surface" | "onImage";
 interface CountdownProps {
   targetIso: string;
   tone?: CountdownTone;
+  className?: string;
 }
 
 interface Remaining {
@@ -54,7 +55,7 @@ function computeRemaining(target: number): Remaining {
   };
 }
 
-export function Countdown({ targetIso, tone = "surface" }: CountdownProps) {
+export function Countdown({ targetIso, tone = "surface", className }: CountdownProps) {
   const t = useTranslations("home.countdown");
   const styles = toneStyles[tone];
   const [remaining, setRemaining] = useState<Remaining | null>(null);
@@ -70,7 +71,10 @@ export function Countdown({ targetIso, tone = "surface" }: CountdownProps) {
 
   if (!remaining) {
     return (
-      <div className={cn("h-24 w-full max-w-md rounded-2xl border", styles.skeleton)} aria-hidden />
+      <div
+        className={cn("h-24 w-full max-w-md rounded-2xl border", styles.skeleton, className)}
+        aria-hidden
+      />
     );
   }
 
@@ -91,7 +95,7 @@ export function Countdown({ targetIso, tone = "surface" }: CountdownProps) {
   ];
 
   return (
-    <div className="w-full max-w-md">
+    <div className={cn("w-full max-w-md", className)}>
       <p
         className={cn(
           "mb-3 inline-flex items-center gap-2 font-semibold text-xs uppercase tracking-widest",
@@ -104,18 +108,18 @@ export function Countdown({ targetIso, tone = "surface" }: CountdownProps) {
         />
         {t("label")}
       </p>
-      <ul className="grid grid-cols-4 gap-2 sm:gap-3">
+      <ul className="grid grid-cols-4 gap-2 sm:gap-3 lg:gap-4">
         {units.map((unit) => (
           <li
             key={unit.key}
             className={cn(
-              "flex flex-col items-center rounded-xl border px-2 py-3 sm:py-4",
+              "flex flex-col items-center rounded-xl border px-2 py-3 sm:py-4 lg:py-6",
               styles.tile,
             )}
           >
             <span
               className={cn(
-                "font-display font-bold text-3xl tabular-nums sm:text-4xl md:text-5xl",
+                "font-display font-bold text-3xl tabular-nums sm:text-4xl md:text-5xl lg:text-6xl",
                 styles.value,
               )}
             >

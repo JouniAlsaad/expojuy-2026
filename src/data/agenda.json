@@ -7,8 +7,8 @@
       "day": "2026-08-14",
       "startTime": "10:00",
       "endTime": "11:00",
-      "title": "Apertura oficial ExpoJuy 2026",
-      "speaker": "Comité Organizador",
+      "title": "Apertura oficial ExpoJuy 2026 (ficticio)",
+      "speaker": "Comité Organizador (ficticio)",
       "stage": "Auditorio Central",
       "track": "institucional"
     },
@@ -17,8 +17,8 @@
       "day": "2026-08-14",
       "startTime": "11:30",
       "endTime": "12:30",
-      "title": "El litio como motor del NOA",
-      "speaker": "Panel de especialistas",
+      "title": "El litio como motor del NOA (ficticio)",
+      "speaker": "Panel de especialistas (ficticio)",
       "stage": "Sala Puna",
       "track": "mineria-energia"
     },
@@ -27,38 +27,338 @@
       "day": "2026-08-14",
       "startTime": "15:00",
       "endTime": "16:00",
-      "title": "Turismo sostenible en la Quebrada",
-      "speaker": "Mesa de turismo",
+      "title": "Turismo sostenible en la Quebrada (ficticio)",
+      "speaker": "Mesa de turismo (ficticio)",
       "stage": "Sala Quebrada",
       "track": "turismo"
     },
     {
       "id": "ag-004",
-      "day": "2026-08-15",
-      "startTime": "10:30",
-      "endTime": "11:30",
-      "title": "Transformación digital para pymes",
-      "speaker": "Comunidad tech local",
-      "stage": "Sala Innovación",
-      "track": "tecnologia"
+      "day": "2026-08-14",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "Sabores de altura: cocina andina (ficticio)",
+      "speaker": "Colectivo gastronómico (ficticio)",
+      "stage": "Patio Gastronómico",
+      "track": "gastronomia"
     },
     {
       "id": "ag-005",
       "day": "2026-08-15",
-      "startTime": "12:00",
-      "endTime": "13:00",
-      "title": "Ronda de negocios agroindustrial",
-      "speaker": "Matchmaking B2B",
-      "stage": "Salón de Negocios",
-      "track": "agroindustria"
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "title": "Transformación digital para pymes (ficticio)",
+      "speaker": "Comunidad tech local (ficticio)",
+      "stage": "Sala Innovación",
+      "track": "tecnologia"
     },
     {
       "id": "ag-006",
       "day": "2026-08-15",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "Ronda de negocios agroindustrial (ficticio)",
+      "speaker": "Matchmaking B2B (ficticio)",
+      "stage": "Salón de Negocios",
+      "track": "agroindustria"
+    },
+    {
+      "id": "ag-007",
+      "day": "2026-08-15",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "title": "Financiamiento para emprendedores del Norte (ficticio)",
+      "speaker": "Red de inversores (ficticio)",
+      "stage": "Salón de Negocios",
+      "track": "negocios"
+    },
+    {
+      "id": "ag-008",
+      "day": "2026-08-15",
       "startTime": "17:00",
       "endTime": "18:30",
-      "title": "Cierre y show de artesanías andinas",
-      "speaker": "Artistas regionales",
+      "title": "Cierre y show de artesanías andinas (ficticio)",
+      "speaker": "Artistas regionales (ficticio)",
+      "stage": "Auditorio Central",
+      "track": "artesanias"
+    },
+    {
+      "id": "ag-009",
+      "day": "2026-08-16",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "title": "Energías renovables en la Puna (ficticio)",
+      "speaker": "Cámara de energía (ficticio)",
+      "stage": "Sala Puna",
+      "track": "mineria-energia"
+    },
+    {
+      "id": "ag-010",
+      "day": "2026-08-16",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "Marca Jujuy: identidad y exportación (ficticio)",
+      "speaker": "Agencia de desarrollo (ficticio)",
+      "stage": "Salón de Negocios",
+      "track": "institucional"
+    },
+    {
+      "id": "ag-011",
+      "day": "2026-08-16",
+      "startTime": "14:30",
+      "endTime": "15:30",
+      "title": "Rutas del vino de altura (ficticio)",
+      "speaker": "Bodegas de los Valles (ficticio)",
+      "stage": "Sala Quebrada",
+      "track": "turismo"
+    },
+    {
+      "id": "ag-012",
+      "day": "2026-08-16",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "Cocina de autor con productos regionales (ficticio)",
+      "speaker": "Chef invitado (ficticio)",
+      "stage": "Patio Gastronómico",
+      "track": "gastronomia"
+    },
+    {
+      "id": "ag-013",
+      "day": "2026-08-17",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "title": "Inteligencia artificial aplicada al agro (ficticio)",
+      "speaker": "Laboratorio de innovación (ficticio)",
+      "stage": "Sala Innovación",
+      "track": "tecnologia"
+    },
+    {
+      "id": "ag-014",
+      "day": "2026-08-17",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "Trazabilidad y calidad en la producción frutícola (ficticio)",
+      "speaker": "Instituto agroindustrial (ficticio)",
+      "stage": "Sala Yungas",
+      "track": "agroindustria"
+    },
+    {
+      "id": "ag-015",
+      "day": "2026-08-17",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "title": "Textiles andinos: tradición e innovación (ficticio)",
+      "speaker": "Cooperativa de tejedoras (ficticio)",
+      "stage": "Sala Andina",
+      "track": "artesanias"
+    },
+    {
+      "id": "ag-016",
+      "day": "2026-08-17",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "Networking multisectorial (ficticio)",
+      "speaker": "Ronda abierta de negocios (ficticio)",
+      "stage": "Salón de Negocios",
+      "track": "negocios"
+    },
+    {
+      "id": "ag-017",
+      "day": "2026-08-18",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "title": "Minería responsable y comunidades (ficticio)",
+      "speaker": "Mesa multiactoral (ficticio)",
+      "stage": "Sala Puna",
+      "track": "mineria-energia"
+    },
+    {
+      "id": "ag-018",
+      "day": "2026-08-18",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "Ecoturismo en las Yungas (ficticio)",
+      "speaker": "Guías de naturaleza (ficticio)",
+      "stage": "Sala Yungas",
+      "track": "turismo"
+    },
+    {
+      "id": "ag-019",
+      "day": "2026-08-18",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "title": "Startups del Norte: casos de éxito (ficticio)",
+      "speaker": "Ecosistema emprendedor (ficticio)",
+      "stage": "Sala Innovación",
+      "track": "tecnologia"
+    },
+    {
+      "id": "ag-020",
+      "day": "2026-08-18",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "Feria de sabores regionales (ficticio)",
+      "speaker": "Productores locales (ficticio)",
+      "stage": "Patio Gastronómico",
+      "track": "gastronomia"
+    },
+    {
+      "id": "ag-021",
+      "day": "2026-08-19",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "title": "Políticas públicas para el desarrollo productivo (ficticio)",
+      "speaker": "Panel institucional (ficticio)",
+      "stage": "Auditorio Central",
+      "track": "institucional"
+    },
+    {
+      "id": "ag-022",
+      "day": "2026-08-19",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "Exportar desde Jujuy: primeros pasos (ficticio)",
+      "speaker": "Cámara de comercio exterior (ficticio)",
+      "stage": "Salón de Negocios",
+      "track": "negocios"
+    },
+    {
+      "id": "ag-023",
+      "day": "2026-08-19",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "title": "Cadena de valor de la caña de azúcar (ficticio)",
+      "speaker": "Sector agroindustrial (ficticio)",
+      "stage": "Sala Yungas",
+      "track": "agroindustria"
+    },
+    {
+      "id": "ag-024",
+      "day": "2026-08-19",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "title": "Cerámica y alfarería de la Quebrada (ficticio)",
+      "speaker": "Taller de artesanos (ficticio)",
+      "stage": "Sala Andina",
+      "track": "artesanias"
+    },
+    {
+      "id": "ag-025",
+      "day": "2026-08-20",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "title": "Hidrógeno verde: oportunidad para el NOA (ficticio)",
+      "speaker": "Foro de energía (ficticio)",
+      "stage": "Sala Puna",
+      "track": "mineria-energia"
+    },
+    {
+      "id": "ag-026",
+      "day": "2026-08-20",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "Ciberseguridad para empresas regionales (ficticio)",
+      "speaker": "Especialistas en tecnología (ficticio)",
+      "stage": "Sala Innovación",
+      "track": "tecnologia"
+    },
+    {
+      "id": "ag-027",
+      "day": "2026-08-20",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "title": "Turismo cultural y patrimonio (ficticio)",
+      "speaker": "Secretaría de cultura (ficticio)",
+      "stage": "Sala Quebrada",
+      "track": "turismo"
+    },
+    {
+      "id": "ag-028",
+      "day": "2026-08-20",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "Maridaje de altura: vinos y cocina local (ficticio)",
+      "speaker": "Sommeliers invitados (ficticio)",
+      "stage": "Patio Gastronómico",
+      "track": "gastronomia"
+    },
+    {
+      "id": "ag-029",
+      "day": "2026-08-21",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "title": "Inversión y clima de negocios en Jujuy (ficticio)",
+      "speaker": "Agencia de inversiones (ficticio)",
+      "stage": "Salón de Negocios",
+      "track": "negocios"
+    },
+    {
+      "id": "ag-030",
+      "day": "2026-08-21",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "Agricultura familiar y soberanía alimentaria (ficticio)",
+      "speaker": "Red de productores (ficticio)",
+      "stage": "Sala Yungas",
+      "track": "agroindustria"
+    },
+    {
+      "id": "ag-031",
+      "day": "2026-08-21",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "title": "Diseño con identidad: artesanía contemporánea (ficticio)",
+      "speaker": "Colectivo de diseñadores (ficticio)",
+      "stage": "Sala Andina",
+      "track": "artesanias"
+    },
+    {
+      "id": "ag-032",
+      "day": "2026-08-21",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "Ciudades inteligentes en el Norte (ficticio)",
+      "speaker": "Mesa de innovación urbana (ficticio)",
+      "stage": "Sala Innovación",
+      "track": "tecnologia"
+    },
+    {
+      "id": "ag-033",
+      "day": "2026-08-22",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "title": "Balance de la feria y próximos pasos (ficticio)",
+      "speaker": "Comité Organizador (ficticio)",
+      "stage": "Auditorio Central",
+      "track": "institucional"
+    },
+    {
+      "id": "ag-034",
+      "day": "2026-08-22",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "Grandes rondas de negocios: resultados (ficticio)",
+      "speaker": "Matchmaking B2B (ficticio)",
+      "stage": "Salón de Negocios",
+      "track": "negocios"
+    },
+    {
+      "id": "ag-035",
+      "day": "2026-08-22",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "title": "Gran feria gastronómica de cierre (ficticio)",
+      "speaker": "Productores y chefs regionales (ficticio)",
+      "stage": "Patio Gastronómico",
+      "track": "gastronomia"
+    },
+    {
+      "id": "ag-036",
+      "day": "2026-08-22",
+      "startTime": "17:00",
+      "endTime": "18:30",
+      "title": "Cierre artístico: música y artesanías andinas (ficticio)",
+      "speaker": "Artistas regionales (ficticio)",
       "stage": "Auditorio Central",
       "track": "artesanias"
     }

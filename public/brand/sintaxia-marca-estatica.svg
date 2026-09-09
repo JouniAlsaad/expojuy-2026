@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="34 44 372 372" width="372" height="372" role="img" aria-label="Sintaxia">
+  <g transform="translate(20,20) scale(2)">
+    <g>
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#D9A183" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="404 530" transform="rotate(-118 100 100)"></circle>
+      <circle cx="17.9" cy="122" r="6" fill="#FBF7F5"></circle>
+      <circle cx="15.8" cy="111.8" r="4.6" fill="#8A8288"></circle>
+      <circle cx="15" cy="102.2" r="3.6" fill="#6E666C"></circle>
+      <circle cx="15.3" cy="92.6" r="2.6" fill="#5A535A"></circle>
+      <circle cx="16.6" cy="83.8" r="1.8" fill="#4A444C"></circle>
+    </g>
+    <g>
+      <circle cx="100" cy="100" r="60" fill="none" stroke="#7E6A6E" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="264 377" transform="rotate(-96 100 100)"></circle>
+      <circle cx="146" cy="138.6" r="5" fill="#D9A183"></circle>
+    </g>
+    <g stroke="#6E5F66" stroke-width="1.2" stroke-linecap="round">
+      <line x1="161" y1="58" x2="175" y2="58"></line>
+      <line x1="168" y1="51" x2="168" y2="65"></line>
+    </g>
+  </g>
+</svg>
