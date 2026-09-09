@@ -1,4 +1,14 @@
-import { Cpu, Factory, GraduationCap, Handshake, Lightbulb, LineChart } from "lucide-react";
+import {
+  Cpu,
+  Factory,
+  Globe,
+  GraduationCap,
+  Handshake,
+  Leaf,
+  Lightbulb,
+  LineChart,
+  Mountain,
+} from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Reveal } from "@/shared/components";
 
@@ -9,6 +19,12 @@ const values = [
   { key: "development", icon: LineChart },
   { key: "business", icon: Handshake },
   { key: "knowledge", icon: GraduationCap },
+] as const;
+
+const moreValues = [
+  { key: "culture", icon: Mountain },
+  { key: "sustainability", icon: Leaf },
+  { key: "trade", icon: Globe },
 ] as const;
 
 export async function ValuesSection() {
@@ -31,6 +47,25 @@ export async function ValuesSection() {
             </span>
             <h3 className="text-card-foreground text-lg">{t(`values.items.${key}.title`)}</h3>
             <p className="text-muted-foreground text-sm">{t(`values.items.${key}.description`)}</p>
+          </Reveal>
+        ))}
+      </div>
+      <Reveal className="mt-16 mb-10 max-w-2xl">
+        <h2 className="text-3xl text-foreground md:text-4xl">{t("values.moreTitle")}</h2>
+      </Reveal>
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {moreValues.map(({ key, icon: Icon }) => (
+          <Reveal
+            key={key}
+            className="flex h-full flex-col gap-3 rounded-lg border border-border bg-card p-6 shadow-soft"
+          >
+            <span className="inline-flex size-11 items-center justify-center rounded-md bg-accent-soft text-accent-soft-foreground">
+              <Icon className="size-6" aria-hidden />
+            </span>
+            <h3 className="text-card-foreground text-lg">{t(`values.moreItems.${key}.title`)}</h3>
+            <p className="text-muted-foreground text-sm">
+              {t(`values.moreItems.${key}.description`)}
+            </p>
           </Reveal>
         ))}
       </div>

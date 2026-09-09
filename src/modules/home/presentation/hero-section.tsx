@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import type { EventInfoDto } from "@/modules/about";
-import { Countdown } from "@/shared/components";
 import { cn } from "@/shared/lib/utils";
 import { buttonVariants } from "@/shared/ui/button";
 
@@ -15,9 +14,9 @@ export async function HeroSection({ event }: HeroSectionProps) {
   const t = await getTranslations("home");
 
   return (
-    <section className="relative isolate overflow-hidden border-border border-b">
+    <section className="relative isolate flex min-h-svh flex-col justify-center overflow-hidden border-border border-b">
       <Image
-        src="/images/hero-ia.jpeg"
+        src="/images/hero-IA2.jpeg"
         alt=""
         fill
         priority
@@ -29,13 +28,13 @@ export async function HeroSection({ event }: HeroSectionProps) {
         className="absolute inset-0 bg-gradient-to-br from-neutral-950/85 via-neutral-950/65 to-neutral-950/45"
       />
 
-      <div className="relative mx-auto max-w-6xl px-4 py-20 md:px-8 lg:py-32">
-        <div className="flex max-w-2xl flex-col gap-6">
+      <div className="relative mx-auto max-w-6xl px-4 py-20 md:px-8">
+        <div className="flex max-w-4xl flex-col gap-6">
           <span className="font-semibold text-primary text-sm uppercase tracking-widest">
             {t("hero.eyebrow")}
           </span>
-          <h1 className="text-balance font-bold text-4xl text-neutral-50 leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            {t("hero.title")}
+          <h1 className="font-bold text-4xl text-neutral-50 leading-tight tracking-tight sm:text-5xl">
+            {t.rich("hero.title", { br: () => <br /> })}
           </h1>
           <p className="max-w-xl text-lg text-neutral-200">{t("hero.subtitle")}</p>
           <p className="inline-flex items-center gap-2 text-neutral-200 text-sm">
@@ -59,9 +58,6 @@ export async function HeroSection({ event }: HeroSectionProps) {
             >
               {t("hero.ctaSecondary")}
             </Link>
-          </div>
-          <div className="mt-2">
-            <Countdown targetIso={event.startDate} tone="onImage" />
           </div>
         </div>
       </div>

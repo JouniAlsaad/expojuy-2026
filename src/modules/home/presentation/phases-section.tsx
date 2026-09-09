@@ -22,7 +22,7 @@ export async function PhasesSection() {
           {phases.map(({ key, icon: Icon }) => (
             <Reveal
               key={key}
-              className="flex h-full flex-col gap-3 rounded-lg border border-border bg-card p-6 shadow-soft"
+              className="flex h-full flex-col gap-3 rounded-lg border border-border bg-card p-6 shadow-soft transition-shadow hover:shadow-cyan"
             >
               <span className="inline-flex size-11 items-center justify-center rounded-md bg-primary/10 text-primary">
                 <Icon className="size-6" aria-hidden />

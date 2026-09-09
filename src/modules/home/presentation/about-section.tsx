@@ -2,6 +2,7 @@ import { CalendarRange, Maximize2, Store, Users } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import type { EventInfoDto } from "@/modules/about";
 import { Reveal } from "@/shared/components";
+import { AnimatedKpiValue } from "./animated-kpi-value";
 
 interface AboutSectionProps {
   event: EventInfoDto;
@@ -33,9 +34,11 @@ export async function AboutSection({ event }: AboutSectionProps) {
             className="flex flex-col gap-2 rounded-lg border border-border bg-card p-6 shadow-soft"
           >
             <Icon className="size-6 text-brand-text" aria-hidden />
-            <span className="font-display font-semibold text-3xl text-foreground tabular-nums">
-              {t(`about.kpis.${key}`, { value: value(event) })}
-            </span>
+            <AnimatedKpiValue
+              translationKey={key}
+              value={value(event)}
+              className="font-display font-semibold text-3xl text-foreground tabular-nums"
+            />
             <span className="text-muted-foreground text-sm">{t(`about.labels.${key}`)}</span>
           </Reveal>
         ))}
