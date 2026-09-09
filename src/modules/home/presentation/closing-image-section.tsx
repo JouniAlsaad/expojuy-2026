@@ -23,7 +23,7 @@ export async function ClosingImageSection() {
             style={{ objectPosition: "50% 62%" }}
           />
 
-          <div className="absolute top-2 right-2 z-10 flex items-center gap-1.5 rounded-md border border-neutral-50/10 bg-sintaxia-bg/60 px-2 py-1 backdrop-blur-sm md:top-auto md:right-4 md:bottom-4 md:gap-3 md:bg-sintaxia-bg/70 md:px-3 md:py-2">
+          <div className="absolute top-2 right-2 z-10 flex items-center gap-1.5 rounded-md border border-neutral-50/10 bg-sintaxia-bg/80 px-2 py-1 md:top-auto md:right-4 md:bottom-4 md:gap-3 md:bg-sintaxia-bg/70 md:px-3 md:py-2 md:backdrop-blur-sm">
             <Image
               src="/brand/sintaxia-marca-estatica.svg"
               alt=""

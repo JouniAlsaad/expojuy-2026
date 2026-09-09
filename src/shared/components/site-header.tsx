@@ -34,7 +34,7 @@ export async function SiteHeader() {
         </div>
       </div>
 
-      <header className="sticky top-0 z-40 border-border border-b bg-background/80 backdrop-blur">
+      <header className="sticky top-0 z-40 border-border border-b bg-background md:bg-background/80 md:backdrop-blur">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 md:px-8">
           <Link href="/" className="flex items-center gap-3">
             <Image

@@ -33,7 +33,7 @@ const toneStyles: Record<
   },
   onImage: {
     label: "text-primary",
-    tile: "border-neutral-50/15 bg-neutral-950/40 backdrop-blur",
+    tile: "border-neutral-50/15 bg-neutral-950/60 md:bg-neutral-950/40 md:backdrop-blur",
     value: "text-neutral-50",
     unit: "text-neutral-200",
     skeleton: "border-neutral-50/15 bg-neutral-950/30",

@@ -53,7 +53,7 @@ export async function HeroSection({ event }: HeroSectionProps) {
               href="/agenda"
               className={cn(
                 buttonVariants({ variant: "outline", size: "lg" }),
-                "w-full border-neutral-50/30 bg-neutral-50/10 text-neutral-50 backdrop-blur hover:bg-neutral-50/20 sm:w-auto",
+                "w-full border-neutral-50/30 bg-neutral-50/20 text-neutral-50 hover:bg-neutral-50/20 sm:w-auto md:bg-neutral-50/10 md:backdrop-blur",
               )}
             >
               {t("hero.ctaSecondary")}
