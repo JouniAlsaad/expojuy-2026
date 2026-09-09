@@ -54,7 +54,7 @@ export function ExhibitorExplorer({ exhibitors }: ExhibitorExplorerProps) {
           onChange={(event) => setQuery(event.target.value)}
           placeholder={t("searchPlaceholder")}
           aria-label={t("searchPlaceholder")}
-          className="w-full rounded-md border border-input bg-background py-2 pr-3 pl-10 text-sm text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+          className="w-full rounded-md border border-input bg-background py-2 pr-3 pl-10 text-base text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:text-sm"
         />
       </div>
 

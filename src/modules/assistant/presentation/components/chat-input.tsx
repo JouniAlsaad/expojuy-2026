@@ -39,7 +39,7 @@ export function ChatInput({ placeholder, label, sendLabel, disabled, onSend }: C
         placeholder={placeholder}
         disabled={disabled}
         autoComplete="off"
-        className="w-full rounded-full border-2 border-input bg-background py-3 pr-14 pl-4 text-foreground text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:opacity-60"
+        className="w-full rounded-full border-2 border-input bg-background py-3 pr-14 pl-4 text-foreground text-base focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:opacity-60 md:text-sm"
       />
       <Button
         type="submit"
