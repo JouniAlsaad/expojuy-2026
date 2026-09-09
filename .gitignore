@@ -38,7 +38,7 @@ yarn-error.log*
 .vscode
 .idea
 
-# claude code local tooling
+# tooling local
 .claude
 
 # vercel
@@ -48,12 +48,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Documentos internos del concurso (bases oficiales, memoria, contexto)
+# documentos de trabajo (solo local)
 docs/BASES_Y_CONDICIONES.md
 docs/CONSIGNAS_TECNICAS_DEL_DESAF*.md
 docs/instrucciones-req.md
 docs/Contexto_expojuy_2026.md
 docs/*.pdf
 
-# Contexto interno para Claude Code
+# notas de trabajo (solo local)
 CLAUDE.md
