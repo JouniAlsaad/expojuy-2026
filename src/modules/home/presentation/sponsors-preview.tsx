@@ -42,7 +42,7 @@ const partners: readonly Partner[] = [
 ];
 
 const cardClass =
-  "flex items-center justify-center rounded-xl border border-border bg-card p-6 shadow-soft transition-shadow hover:shadow-violet lg:col-span-2";
+  "flex items-center justify-center rounded-xl border border-border bg-surface-logo p-6 shadow-soft transition-shadow hover:shadow-violet lg:col-span-2";
 
 const PREVIEW_SPONSORS_COUNT = 3;
 
