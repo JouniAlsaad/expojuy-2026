@@ -1,3 +1,4 @@
+import type { LucideIcon } from "lucide-react";
 import {
   Cpu,
   Factory,
@@ -9,7 +10,6 @@ import {
   LineChart,
   Mountain,
 } from "lucide-react";
-import type { LucideIcon } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Reveal } from "@/shared/components";
 import { cn } from "@/shared/lib/utils";
@@ -94,7 +94,10 @@ const moreValues: ValueItem[] = [
 export async function ValuesSection() {
   const t = await getTranslations("home");
 
-  const renderCard = ({ key, icon: Icon, badge, watermark, hoverShadow }: ValueItem, path: string) => (
+  const renderCard = (
+    { key, icon: Icon, badge, watermark, hoverShadow }: ValueItem,
+    path: string,
+  ) => (
     <Reveal
       key={key}
       className={cn(
@@ -118,12 +121,8 @@ export async function ValuesSection() {
       >
         <Icon className="size-8 md:size-10" aria-hidden strokeWidth={1.5} />
       </span>
-      <h3 className="relative text-card-foreground text-2xl">
-        {t(`values.${path}.${key}.title`)}
-      </h3>
-      <p className="relative text-muted-foreground">
-        {t(`values.${path}.${key}.description`)}
-      </p>
+      <h3 className="relative text-card-foreground text-2xl">{t(`values.${path}.${key}.title`)}</h3>
+      <p className="relative text-muted-foreground">{t(`values.${path}.${key}.description`)}</p>
     </Reveal>
   );
 

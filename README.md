@@ -141,4 +141,5 @@ scripts/                # check-styles.mjs (guard del design system)
 | `pnpm typecheck`    | `tsc --noEmit`                                 |
 | `pnpm check:styles` | Guard: prohíbe valores arbitrarios de Tailwind |
 
-Convenciones del proyecto en [`CLAUDE.md`](CLAUDE.md).
+Documentación técnica: [`docs/architecture.md`](docs/architecture.md) ·
+[`docs/design-system.md`](docs/design-system.md).

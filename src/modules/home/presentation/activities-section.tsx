@@ -62,12 +62,8 @@ export async function ActivitiesSection() {
             >
               <Icon className="size-8 md:size-10" aria-hidden strokeWidth={1.5} />
             </span>
-            <h3 className="relative text-foreground text-2xl">
-              {t(`items.${key}.title`)}
-            </h3>
-            <p className="relative text-muted-foreground">
-              {t(`items.${key}.description`)}
-            </p>
+            <h3 className="relative text-foreground text-2xl">{t(`items.${key}.title`)}</h3>
+            <p className="relative text-muted-foreground">{t(`items.${key}.description`)}</p>
           </Reveal>
         ))}
       </div>

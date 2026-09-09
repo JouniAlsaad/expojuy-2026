@@ -64,7 +64,8 @@ export function AgendaTimeline({ days }: AgendaTimelineProps) {
 
   return (
     <div className="space-y-8">
-      <div role="group" aria-label={t("trackFilterLabel")} className="flex flex-wrap gap-2">
+      <fieldset className="m-0 flex flex-wrap gap-2 border-0 px-4 py-2">
+        <legend className="sr-only">{t("trackFilterLabel")}</legend>
         <FilterChip active={activeTrack === "all"} onClick={() => setActiveTrack("all")}>
           {t("allTracks")}
         </FilterChip>
@@ -77,12 +78,12 @@ export function AgendaTimeline({ days }: AgendaTimelineProps) {
             {t(`tracks.${track}`)}
           </FilterChip>
         ))}
-      </div>
+      </fieldset>
 
       {visibleDays.length === 0 ? (
         <p className="text-muted-foreground">{t("noSessions")}</p>
       ) : (
-        <div className="space-y-3" aria-label={t("daysLabel")}>
+        <div className="space-y-3">
           {visibleDays.map((day) => {
             const isOpen = openDays.has(day.day);
             const panelId = `${panelIdBase}-${day.day}`;

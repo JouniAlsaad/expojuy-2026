@@ -158,11 +158,7 @@ export function VenueMap({ zones }: VenueMapProps) {
               const isSelected = zone.id === selectedId;
               const isPabellon = zone.kind === "pabellon";
               return (
-                <g
-                  key={zone.id}
-                  onClick={() => setSelectedId(zone.id)}
-                  className="cursor-pointer transition duration-300 ease-brand"
-                >
+                <g key={zone.id} className="transition duration-300 ease-brand">
                   {isSelected ? (
                     <rect
                       x={zone.x - 5}
@@ -182,7 +178,7 @@ export function VenueMap({ zones }: VenueMapProps) {
                     rx={12}
                     strokeWidth={isSelected ? 3 : 2}
                     filter={isPabellon ? "url(#venue-zone-shadow)" : undefined}
-                    className={cn("transition hover:stroke-secondary", zoneRectClasses(zone))}
+                    className={cn("transition", zoneRectClasses(zone))}
                   />
                   <text
                     x={zone.x + zone.width / 2}
@@ -204,7 +200,13 @@ export function VenueMap({ zones }: VenueMapProps) {
             <circle cx={105} cy={600} r={6} className="fill-primary" />
 
             <g className="pointer-events-none">
-              <circle cx={1150} cy={132} r={30} className="fill-card stroke-border" strokeWidth={2} />
+              <circle
+                cx={1150}
+                cy={132}
+                r={30}
+                className="fill-card stroke-border"
+                strokeWidth={2}
+              />
               <path d="M 1150 110 L 1158 133 L 1150 127 L 1142 133 Z" className="fill-secondary" />
               <text
                 x={1150}

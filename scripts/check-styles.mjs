@@ -76,7 +76,6 @@ const COLOR_PREFIXES = [
   "decoration",
   "accent",
   "caret",
-  "shadow",
   "placeholder",
 ];
 
