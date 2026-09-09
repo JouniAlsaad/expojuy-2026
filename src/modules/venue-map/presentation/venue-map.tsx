@@ -109,40 +109,112 @@ export function VenueMap({ zones }: VenueMapProps) {
         <div className="space-y-8 lg:col-span-2">
           <svg
             viewBox="0 0 1240 860"
-            className="h-auto w-full rounded-lg border border-border bg-background"
+            className="h-auto w-full rounded-lg border border-border bg-background shadow-soft"
             role="img"
             aria-labelledby="venue-map-title"
           >
             <title id="venue-map-title">{t("mapLabel")}</title>
+            <defs>
+              <pattern id="venue-grid" width={38} height={38} patternUnits="userSpaceOnUse">
+                <circle cx={1.5} cy={1.5} r={1.5} className="fill-border" />
+              </pattern>
+              <filter id="venue-zone-shadow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow
+                  dx={0}
+                  dy={7}
+                  stdDeviation={9}
+                  floodColor="var(--color-neutral-950)"
+                  floodOpacity={0.16}
+                />
+              </filter>
+            </defs>
+
+            <rect
+              x={0}
+              y={0}
+              width={1240}
+              height={860}
+              fill="url(#venue-grid)"
+              className="opacity-70"
+            />
+
             <path
               d="M 120 96 L 1010 80 L 1200 92 L 1200 360 L 1150 470 Q 1190 566 1120 668 L 1092 780 L 300 838 L 150 816 L 96 604 L 118 352 Z"
               className="fill-card stroke-border"
               strokeWidth={2}
               strokeLinejoin="round"
+              filter="url(#venue-zone-shadow)"
             />
             <circle cx={984} cy={648} r={64} className="fill-muted stroke-border" strokeWidth={2} />
-            {zones.map((zone) => (
-              <g key={zone.id}>
-                <rect
-                  x={zone.x}
-                  y={zone.y}
-                  width={zone.width}
-                  height={zone.height}
-                  rx={10}
-                  strokeWidth={2}
-                  className={cn("transition-colors", zoneRectClasses(zone))}
-                />
-                <text
-                  x={zone.x + zone.width / 2}
-                  y={zone.y + zone.height / 2}
-                  textAnchor="middle"
-                  dominantBaseline="middle"
-                  className={cn("font-medium text-sm transition-opacity", zoneLabelClasses(zone))}
+            <circle
+              cx={984}
+              cy={648}
+              r={38}
+              className="fill-background stroke-border"
+              strokeWidth={2}
+            />
+
+            {zones.map((zone) => {
+              const isSelected = zone.id === selectedId;
+              const isPabellon = zone.kind === "pabellon";
+              return (
+                <g
+                  key={zone.id}
+                  onClick={() => setSelectedId(zone.id)}
+                  className="cursor-pointer transition duration-300 ease-brand"
                 >
-                  {shortName(zone.name)}
-                </text>
-              </g>
-            ))}
+                  {isSelected ? (
+                    <rect
+                      x={zone.x - 5}
+                      y={zone.y - 5}
+                      width={zone.width + 10}
+                      height={zone.height + 10}
+                      rx={14}
+                      strokeWidth={2}
+                      className="fill-none stroke-secondary animate-pulse"
+                    />
+                  ) : null}
+                  <rect
+                    x={zone.x}
+                    y={zone.y}
+                    width={zone.width}
+                    height={zone.height}
+                    rx={12}
+                    strokeWidth={isSelected ? 3 : 2}
+                    filter={isPabellon ? "url(#venue-zone-shadow)" : undefined}
+                    className={cn("transition hover:stroke-secondary", zoneRectClasses(zone))}
+                  />
+                  <text
+                    x={zone.x + zone.width / 2}
+                    y={zone.y + zone.height / 2}
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                    className={cn(
+                      "pointer-events-none font-medium text-sm transition-opacity",
+                      zoneLabelClasses(zone),
+                    )}
+                  >
+                    {shortName(zone.name)}
+                  </text>
+                </g>
+              );
+            })}
+
+            <circle cx={105} cy={600} r={12} className="fill-primary/25 animate-pulse" />
+            <circle cx={105} cy={600} r={6} className="fill-primary" />
+
+            <g className="pointer-events-none">
+              <circle cx={1150} cy={132} r={30} className="fill-card stroke-border" strokeWidth={2} />
+              <path d="M 1150 110 L 1158 133 L 1150 127 L 1142 133 Z" className="fill-secondary" />
+              <text
+                x={1150}
+                y={152}
+                textAnchor="middle"
+                className="fill-muted-foreground font-semibold text-2xs"
+              >
+                N
+              </text>
+            </g>
           </svg>
 
           <fieldset className="mx-0 flex flex-wrap gap-2.5 border-0 p-0">

@@ -1,4 +1,5 @@
 import { MapPin } from "lucide-react";
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { cn } from "@/shared/lib/utils";
 import { buttonVariants } from "@/shared/ui/button";
@@ -11,14 +12,25 @@ export async function VenueLocation() {
   const t = await getTranslations("venue");
 
   return (
-    <section className="overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-accent-soft to-card">
+    <section className="relative isolate overflow-hidden rounded-2xl border border-neutral-50/15">
+      <Image
+        src="/images/imgRecursos/fondoContador.jpeg"
+        alt=""
+        fill
+        sizes="(min-width: 1024px) 72rem, 100vw"
+        className="-z-10 object-cover object-center"
+      />
+      <div
+        aria-hidden
+        className="-z-10 absolute inset-0 bg-gradient-to-br from-neutral-950/85 via-neutral-950/70 to-neutral-950/55"
+      />
       <div className="grid gap-8 p-8 md:p-10 lg:grid-cols-2 lg:items-center">
         <div className="space-y-4">
-          <p className="font-medium text-brand-text text-sm">{t("locationEyebrow")}</p>
-          <h2 className="font-display text-3xl text-foreground md:text-4xl">
+          <p className="font-medium text-primary text-sm">{t("locationEyebrow")}</p>
+          <h2 className="font-display text-3xl text-neutral-50 md:text-4xl">
             {t("locationTitle")}
           </h2>
-          <p className="max-w-md text-muted-foreground">{t("locationDescription")}</p>
+          <p className="max-w-md text-neutral-200">{t("locationDescription")}</p>
           <a
             href={MAPS_LINK}
             target="_blank"
