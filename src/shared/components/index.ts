@@ -1,5 +1,6 @@
 export * from "./countdown";
 export * from "./mobile-nav";
+export * from "./nav-link";
 export * from "./page-placeholder";
 export * from "./reveal";
 export * from "./section-hero";

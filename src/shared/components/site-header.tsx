@@ -7,6 +7,7 @@ import { cn } from "@/shared/lib/utils";
 import { buttonVariants } from "@/shared/ui/button";
 import { HomeLink } from "./home-link";
 import { MobileNav } from "./mobile-nav";
+import { NavLink } from "./nav-link";
 import { ThemeToggle } from "./theme-toggle";
 
 export async function SiteHeader() {
@@ -58,13 +59,9 @@ export async function SiteHeader() {
           <nav className="hidden items-center gap-6 lg:flex">
             <HomeLink />
             {primaryNav.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="font-medium text-muted-foreground text-sm transition-colors hover:text-secondary"
-              >
+              <NavLink key={link.href} href={link.href}>
                 {t(link.labelKey)}
-              </Link>
+              </NavLink>
             ))}
           </nav>
 

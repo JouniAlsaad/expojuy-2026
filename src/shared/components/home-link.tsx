@@ -18,7 +18,7 @@ export function HomeLink() {
     <Link
       href="/"
       aria-label={labels("goHome")}
-      className="inline-flex size-9 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-secondary"
+      className="inline-flex size-9 items-center justify-center rounded-md text-muted-foreground transition duration-200 ease-soft hover:bg-muted hover:text-secondary motion-safe:hover:scale-105"
     >
       <MorphIcon icon={homeIcon} size={20} strokeWidth={2} spring="snappy" />
     </Link>
