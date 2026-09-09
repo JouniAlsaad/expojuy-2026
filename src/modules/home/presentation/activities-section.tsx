@@ -1,12 +1,30 @@
-import { HardHat, Luggage, Tractor } from "lucide-react";
+import { Gem, MountainSnow, Wheat } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Reveal } from "@/shared/components";
+import { cn } from "@/shared/lib/utils";
 
-// Actividades productivas de la provincia, inspiradas en la referencia visual provista.
 const activities = [
-  { key: "agroindustry", icon: Tractor },
-  { key: "mining", icon: HardHat },
-  { key: "tourism", icon: Luggage },
+  {
+    key: "agroindustry",
+    icon: Wheat,
+    badge: "bg-cat-agroindustria",
+    watermark: "text-cat-agroindustria",
+    hoverShadow: "hover:shadow-cat-agroindustria",
+  },
+  {
+    key: "mining",
+    icon: Gem,
+    badge: "bg-cat-mineria-energia",
+    watermark: "text-cat-mineria-energia",
+    hoverShadow: "hover:shadow-cat-mineria-energia",
+  },
+  {
+    key: "tourism",
+    icon: MountainSnow,
+    badge: "bg-cat-turismo",
+    watermark: "text-cat-turismo",
+    hoverShadow: "hover:shadow-cat-turismo",
+  },
 ] as const;
 
 export async function ActivitiesSection() {
@@ -19,16 +37,37 @@ export async function ActivitiesSection() {
         <p className="mt-3 text-muted-foreground">{t("subtitle")}</p>
       </Reveal>
 
-      <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-        {activities.map(({ key, icon: Icon }) => (
-          <Reveal key={key} className="flex flex-col gap-4">
-            <span className="inline-flex size-16 items-center justify-center rounded-xl bg-accent-soft text-accent-soft-foreground">
-              <Icon className="size-9" aria-hidden strokeWidth={1.5} />
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {activities.map(({ key, icon: Icon, badge, watermark, hoverShadow }) => (
+          <Reveal
+            key={key}
+            className={cn(
+              "group relative flex flex-col gap-4 overflow-hidden rounded-xl border border-border bg-card p-8 shadow-soft transition duration-300 ease-brand hover:-translate-y-1",
+              hoverShadow,
+            )}
+          >
+            <Icon
+              aria-hidden
+              strokeWidth={1}
+              className={cn(
+                "-top-6 -right-6 pointer-events-none absolute size-40 opacity-40 transition duration-300 ease-brand group-hover:scale-110",
+                watermark,
+              )}
+            />
+            <span
+              className={cn(
+                "relative inline-flex size-20 items-center justify-center rounded-2xl text-foreground shadow-soft transition duration-300 ease-brand group-hover:scale-105",
+                badge,
+              )}
+            >
+              <Icon className="size-10" aria-hidden strokeWidth={1.5} />
             </span>
-            <h3 className="text-foreground text-xl md:text-2xl">
+            <h3 className="relative text-foreground text-2xl">
               {t(`items.${key}.title`)}
             </h3>
-            <p className="text-muted-foreground">{t(`items.${key}.description`)}</p>
+            <p className="relative text-muted-foreground">
+              {t(`items.${key}.description`)}
+            </p>
           </Reveal>
         ))}
       </div>

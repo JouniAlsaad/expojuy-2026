@@ -142,6 +142,14 @@
   --shadow-cyan: 0 6px 16px rgb(0 190 210 / 0.18), 0 14px 32px rgb(0 190 210 / 0.24);
   --shadow-ring: 0 0 0 3px rgb(0 190 210 / 0.35);
 
+  --shadow-cat-agroindustria: 0 6px 16px rgb(215 232 207 / 0.55), 0 14px 32px rgb(215 232 207 / 0.75);
+  --shadow-cat-mineria-energia: 0 6px 16px rgb(242 227 196 / 0.55), 0 14px 32px rgb(242 227 196 / 0.75);
+  --shadow-cat-turismo: 0 6px 16px rgb(199 233 238 / 0.55), 0 14px 32px rgb(199 233 238 / 0.75);
+  --shadow-cat-tecnologia: 0 6px 16px rgb(220 216 239 / 0.55), 0 14px 32px rgb(220 216 239 / 0.75);
+  --shadow-cat-artesanias: 0 6px 16px rgb(240 217 207 / 0.55), 0 14px 32px rgb(240 217 207 / 0.75);
+  --shadow-cat-gastronomia: 0 6px 16px rgb(243 211 208 / 0.55), 0 14px 32px rgb(243 211 208 / 0.75);
+  --shadow-cat-servicios: 0 6px 16px rgb(220 221 227 / 0.55), 0 14px 32px rgb(220 221 227 / 0.75);
+
   --ease-brand: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
 }
