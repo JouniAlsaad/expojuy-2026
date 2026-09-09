@@ -4,7 +4,7 @@
   "items": [
     {
       "id": "ag-001",
-      "day": "2026-08-14",
+      "day": "2026-10-10",
       "startTime": "10:00",
       "endTime": "11:00",
       "title": "Apertura oficial ExpoJuy 2026 (ficticio)",
@@ -14,7 +14,7 @@
     },
     {
       "id": "ag-002",
-      "day": "2026-08-14",
+      "day": "2026-10-10",
       "startTime": "11:30",
       "endTime": "12:30",
       "title": "El litio como motor del NOA (ficticio)",
@@ -24,7 +24,7 @@
     },
     {
       "id": "ag-003",
-      "day": "2026-08-14",
+      "day": "2026-10-10",
       "startTime": "15:00",
       "endTime": "16:00",
       "title": "Turismo sostenible en la Quebrada (ficticio)",
@@ -34,7 +34,7 @@
     },
     {
       "id": "ag-004",
-      "day": "2026-08-14",
+      "day": "2026-10-10",
       "startTime": "17:00",
       "endTime": "18:00",
       "title": "Sabores de altura: cocina andina (ficticio)",
@@ -44,7 +44,7 @@
     },
     {
       "id": "ag-005",
-      "day": "2026-08-15",
+      "day": "2026-10-11",
       "startTime": "10:30",
       "endTime": "11:30",
       "title": "Transformación digital para pymes (ficticio)",
@@ -54,7 +54,7 @@
     },
     {
       "id": "ag-006",
-      "day": "2026-08-15",
+      "day": "2026-10-11",
       "startTime": "12:00",
       "endTime": "13:00",
       "title": "Ronda de negocios agroindustrial (ficticio)",
@@ -64,7 +64,7 @@
     },
     {
       "id": "ag-007",
-      "day": "2026-08-15",
+      "day": "2026-10-11",
       "startTime": "15:30",
       "endTime": "16:30",
       "title": "Financiamiento para emprendedores del Norte (ficticio)",
@@ -74,7 +74,7 @@
     },
     {
       "id": "ag-008",
-      "day": "2026-08-15",
+      "day": "2026-10-11",
       "startTime": "17:00",
       "endTime": "18:30",
       "title": "Cierre y show de artesanías andinas (ficticio)",
@@ -84,7 +84,7 @@
     },
     {
       "id": "ag-009",
-      "day": "2026-08-16",
+      "day": "2026-10-12",
       "startTime": "10:00",
       "endTime": "11:00",
       "title": "Energías renovables en la Puna (ficticio)",
@@ -94,7 +94,7 @@
     },
     {
       "id": "ag-010",
-      "day": "2026-08-16",
+      "day": "2026-10-12",
       "startTime": "11:30",
       "endTime": "12:30",
       "title": "Marca Jujuy: identidad y exportación (ficticio)",
@@ -104,7 +104,7 @@
     },
     {
       "id": "ag-011",
-      "day": "2026-08-16",
+      "day": "2026-10-12",
       "startTime": "14:30",
       "endTime": "15:30",
       "title": "Rutas del vino de altura (ficticio)",
@@ -114,7 +114,7 @@
     },
     {
       "id": "ag-012",
-      "day": "2026-08-16",
+      "day": "2026-10-12",
       "startTime": "16:00",
       "endTime": "17:00",
       "title": "Cocina de autor con productos regionales (ficticio)",
@@ -124,7 +124,7 @@
     },
     {
       "id": "ag-013",
-      "day": "2026-08-17",
+      "day": "2026-10-13",
       "startTime": "10:00",
       "endTime": "11:00",
       "title": "Inteligencia artificial aplicada al agro (ficticio)",
@@ -134,7 +134,7 @@
     },
     {
       "id": "ag-014",
-      "day": "2026-08-17",
+      "day": "2026-10-13",
       "startTime": "11:30",
       "endTime": "12:30",
       "title": "Trazabilidad y calidad en la producción frutícola (ficticio)",
@@ -144,7 +144,7 @@
     },
     {
       "id": "ag-015",
-      "day": "2026-08-17",
+      "day": "2026-10-13",
       "startTime": "15:00",
       "endTime": "16:00",
       "title": "Textiles andinos: tradición e innovación (ficticio)",
@@ -154,7 +154,7 @@
     },
     {
       "id": "ag-016",
-      "day": "2026-08-17",
+      "day": "2026-10-13",
       "startTime": "17:00",
       "endTime": "18:00",
       "title": "Networking multisectorial (ficticio)",
@@ -164,7 +164,7 @@
     },
     {
       "id": "ag-017",
-      "day": "2026-08-18",
+      "day": "2026-10-14",
       "startTime": "10:30",
       "endTime": "11:30",
       "title": "Minería responsable y comunidades (ficticio)",
@@ -174,7 +174,7 @@
     },
     {
       "id": "ag-018",
-      "day": "2026-08-18",
+      "day": "2026-10-14",
       "startTime": "12:00",
       "endTime": "13:00",
       "title": "Ecoturismo en las Yungas (ficticio)",
@@ -184,7 +184,7 @@
     },
     {
       "id": "ag-019",
-      "day": "2026-08-18",
+      "day": "2026-10-14",
       "startTime": "15:30",
       "endTime": "16:30",
       "title": "Startups del Norte: casos de éxito (ficticio)",
@@ -194,7 +194,7 @@
     },
     {
       "id": "ag-020",
-      "day": "2026-08-18",
+      "day": "2026-10-14",
       "startTime": "17:00",
       "endTime": "18:00",
       "title": "Feria de sabores regionales (ficticio)",
@@ -204,7 +204,7 @@
     },
     {
       "id": "ag-021",
-      "day": "2026-08-19",
+      "day": "2026-10-15",
       "startTime": "10:00",
       "endTime": "11:00",
       "title": "Políticas públicas para el desarrollo productivo (ficticio)",
@@ -214,7 +214,7 @@
     },
     {
       "id": "ag-022",
-      "day": "2026-08-19",
+      "day": "2026-10-15",
       "startTime": "11:30",
       "endTime": "12:30",
       "title": "Exportar desde Jujuy: primeros pasos (ficticio)",
@@ -224,7 +224,7 @@
     },
     {
       "id": "ag-023",
-      "day": "2026-08-19",
+      "day": "2026-10-15",
       "startTime": "15:00",
       "endTime": "16:00",
       "title": "Cadena de valor de la caña de azúcar (ficticio)",
@@ -234,7 +234,7 @@
     },
     {
       "id": "ag-024",
-      "day": "2026-08-19",
+      "day": "2026-10-15",
       "startTime": "16:30",
       "endTime": "17:30",
       "title": "Cerámica y alfarería de la Quebrada (ficticio)",
@@ -244,7 +244,7 @@
     },
     {
       "id": "ag-025",
-      "day": "2026-08-20",
+      "day": "2026-10-16",
       "startTime": "10:00",
       "endTime": "11:00",
       "title": "Hidrógeno verde: oportunidad para el NOA (ficticio)",
@@ -254,7 +254,7 @@
     },
     {
       "id": "ag-026",
-      "day": "2026-08-20",
+      "day": "2026-10-16",
       "startTime": "11:30",
       "endTime": "12:30",
       "title": "Ciberseguridad para empresas regionales (ficticio)",
@@ -264,7 +264,7 @@
     },
     {
       "id": "ag-027",
-      "day": "2026-08-20",
+      "day": "2026-10-16",
       "startTime": "15:00",
       "endTime": "16:00",
       "title": "Turismo cultural y patrimonio (ficticio)",
@@ -274,7 +274,7 @@
     },
     {
       "id": "ag-028",
-      "day": "2026-08-20",
+      "day": "2026-10-16",
       "startTime": "17:00",
       "endTime": "18:00",
       "title": "Maridaje de altura: vinos y cocina local (ficticio)",
@@ -284,7 +284,7 @@
     },
     {
       "id": "ag-029",
-      "day": "2026-08-21",
+      "day": "2026-10-17",
       "startTime": "10:30",
       "endTime": "11:30",
       "title": "Inversión y clima de negocios en Jujuy (ficticio)",
@@ -294,7 +294,7 @@
     },
     {
       "id": "ag-030",
-      "day": "2026-08-21",
+      "day": "2026-10-17",
       "startTime": "12:00",
       "endTime": "13:00",
       "title": "Agricultura familiar y soberanía alimentaria (ficticio)",
@@ -304,7 +304,7 @@
     },
     {
       "id": "ag-031",
-      "day": "2026-08-21",
+      "day": "2026-10-17",
       "startTime": "15:30",
       "endTime": "16:30",
       "title": "Diseño con identidad: artesanía contemporánea (ficticio)",
@@ -314,7 +314,7 @@
     },
     {
       "id": "ag-032",
-      "day": "2026-08-21",
+      "day": "2026-10-17",
       "startTime": "17:00",
       "endTime": "18:00",
       "title": "Ciudades inteligentes en el Norte (ficticio)",
@@ -324,7 +324,7 @@
     },
     {
       "id": "ag-033",
-      "day": "2026-08-22",
+      "day": "2026-10-18",
       "startTime": "10:00",
       "endTime": "11:00",
       "title": "Balance de la feria y próximos pasos (ficticio)",
@@ -334,7 +334,7 @@
     },
     {
       "id": "ag-034",
-      "day": "2026-08-22",
+      "day": "2026-10-18",
       "startTime": "11:30",
       "endTime": "12:30",
       "title": "Grandes rondas de negocios: resultados (ficticio)",
@@ -344,7 +344,7 @@
     },
     {
       "id": "ag-035",
-      "day": "2026-08-22",
+      "day": "2026-10-18",
       "startTime": "15:00",
       "endTime": "16:00",
       "title": "Gran feria gastronómica de cierre (ficticio)",
@@ -354,7 +354,7 @@
     },
     {
       "id": "ag-036",
-      "day": "2026-08-22",
+      "day": "2026-10-18",
       "startTime": "17:00",
       "endTime": "18:30",
       "title": "Cierre artístico: música y artesanías andinas (ficticio)",
