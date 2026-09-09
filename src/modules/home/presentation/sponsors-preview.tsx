@@ -2,11 +2,7 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import {
-  createSponsorRepository,
-  GetSponsorsByTierUseCase,
-  SponsorCard,
-} from "@/modules/sponsors";
+import { createSponsorRepository, GetSponsorsByTierUseCase, SponsorCard } from "@/modules/sponsors";
 import { Reveal } from "@/shared/components";
 import { cn } from "@/shared/lib/utils";
 import { buttonVariants } from "@/shared/ui/button";

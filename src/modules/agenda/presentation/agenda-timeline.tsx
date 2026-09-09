@@ -97,7 +97,11 @@ export function AgendaTimeline({ days }: AgendaTimelineProps) {
                     type="button"
                     aria-expanded={isOpen}
                     aria-controls={panelId}
-                    aria-label={isOpen ? t("collapseDay", { day: day.dayLabel }) : t("expandDay", { day: day.dayLabel })}
+                    aria-label={
+                      isOpen
+                        ? t("collapseDay", { day: day.dayLabel })
+                        : t("expandDay", { day: day.dayLabel })
+                    }
                     onClick={() => toggleDay(day.day)}
                     className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset"
                   >

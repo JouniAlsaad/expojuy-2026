@@ -137,37 +137,37 @@ export function GallerySection() {
             ref={thumbListRef}
             className="flex flex-1 snap-x scroll-px-2 gap-2 overflow-x-auto scroll-smooth py-1 sm:gap-3"
           >
-          {images.map((src, index) => (
-            <li
-              key={src}
-              ref={(node) => {
-                thumbRefs.current[index] = node;
-              }}
-              className="w-1/4 shrink-0 snap-center sm:w-1/6"
-            >
-              <button
-                type="button"
-                onClick={() => goTo(index)}
-                aria-label={t("thumbnailLabel", { index: index + 1 })}
-                aria-current={index === active}
-                className={cn(
-                  "relative block aspect-video w-full overflow-hidden rounded-md border transition",
-                  "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background",
-                  index === active
-                    ? "border-primary opacity-100 shadow-soft"
-                    : "border-border opacity-60 hover:opacity-100",
-                )}
+            {images.map((src, index) => (
+              <li
+                key={src}
+                ref={(node) => {
+                  thumbRefs.current[index] = node;
+                }}
+                className="w-1/4 shrink-0 snap-center sm:w-1/6"
               >
-                <Image
-                  src={src}
-                  alt=""
-                  fill
-                  sizes="(min-width: 640px) 12rem, 25vw"
-                  className="object-cover"
-                />
-              </button>
-            </li>
-          ))}
+                <button
+                  type="button"
+                  onClick={() => goTo(index)}
+                  aria-label={t("thumbnailLabel", { index: index + 1 })}
+                  aria-current={index === active}
+                  className={cn(
+                    "relative block aspect-video w-full overflow-hidden rounded-md border transition",
+                    "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background",
+                    index === active
+                      ? "border-primary opacity-100 shadow-soft"
+                      : "border-border opacity-60 hover:opacity-100",
+                  )}
+                >
+                  <Image
+                    src={src}
+                    alt=""
+                    fill
+                    sizes="(min-width: 640px) 12rem, 25vw"
+                    className="object-cover"
+                  />
+                </button>
+              </li>
+            ))}
           </ul>
 
           <button
